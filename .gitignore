@@ -1,16 +1,34 @@
-# Ignore everything in this directory
-.vs/
-.csproj
-*.cs.meta
-*.unity
-*.meta
-*.asset
-*.pdb
-*.dll
-*.json
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
 Library/
-.sln
-temp/
-Debug/
-# Except this file
-!.gitignore 
+Assets/AssetStoreTools*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
