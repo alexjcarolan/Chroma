@@ -1,4 +1,16 @@
 # Ignore everything in this directory
-
+.vs/
+.csproj
+*.cs.meta
+*.unity
+*.meta
+*.asset
+*.pdb
+*.dll
+*.json
+Library/
+.sln
+temp/
+Debug/
 # Except this file
 !.gitignore 
