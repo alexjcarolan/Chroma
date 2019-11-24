@@ -6,7 +6,8 @@ public class DrawLineManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public SteamVR_TrackedObject trackedObj;
-    private LineRenderer currLine;
+    //private LineRenderer currLine;
+    private GraphicsLineRenderer currLine;
 
     private int numClicks= 0;
 
@@ -17,15 +18,19 @@ public class DrawLineManager : MonoBehaviour
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
             GameObject go = new GameObject();
-            currLine = go.AddComponent<LineRenderer>();
-            currLine.startWidth = .1f;
-            currLine.endWidth = .1f;
+            //currLine = go.AddComponent<LineRenderer>();
+            //currLine.startWidth = .1f;
+            //currLine.endWidth = .1f;
+            go.AddComponent<MeshFilter>();
+            go.AddComponent<MeshRenderer>();
+            currLine = go.AddComponent<GraphicsLineRenderer>();
             numClicks = 0;
 
         }else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
-            currLine.positionCount=(numClicks + 1);
-            currLine.SetPosition(numClicks,trackedObj.transform.position );
+            //currLine.positionCount=(numClicks + 1);
+            //currLine.SetPosition(numClicks,trackedObj.transform.position );
+            currLine.AddPoint(trackedObj.transform.position);
             numClicks++;
         }
 
