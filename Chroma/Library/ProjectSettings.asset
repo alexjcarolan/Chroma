@@ -572,7 +572,8 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: VIU_OPENVR_SUPPORT;VIU_OPENVR_API;VIU_STEAMVR;VIU_STEAMVR_1_2_0_OR_NEWER;VIU_STEAMVR_1_2_1_OR_NEWER;VIU_STEAMVR_1_2_2_OR_NEWER;VIU_STEAMVR_1_2_3_OR_NEWER;VIU_PLUGIN
   platformArchitecture: {}
   scriptingBackend:
     Standalone: 0
@@ -673,7 +674,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: 070b6117-a4df-4a01-b939-ab71c92f8905
   framebufferDepthMemorylessMode: 0
-  projectName: 
+  projectName: PlaneDrawing (1)
   organizationId: aselkitulagoda
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

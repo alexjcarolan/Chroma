@@ -7,6 +7,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using HTC.UnityPlugin.Vive;
 
 namespace Valve.VR.InteractionSystem
 {
@@ -72,7 +73,7 @@ namespace Valve.VR.InteractionSystem
 			// and if it isn't attached to another hand
 			if ( !attached )
 			{
-				if ( hand.GetStandardInteractionButton() )
+				if ((ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Trigger)))
 				{
 					Rigidbody rb = GetComponent<Rigidbody>();
 					if ( rb.velocity.magnitude >= catchSpeedThreshold )
@@ -101,7 +102,7 @@ namespace Valve.VR.InteractionSystem
 		private void HandHoverUpdate( Hand hand )
 		{
 			//Trigger got pressed
-			if ( hand.GetStandardInteractionButtonDown() )
+			if ((ViveInput.GetPressDown(HandRole.LeftHand, ControllerButton.Trigger)))
 			{
 				hand.AttachObject( gameObject, attachmentFlags, attachmentPoint );
 				ControllerButtonHints.HideButtonHint( hand, Valve.VR.EVRButtonId.k_EButton_SteamVR_Trigger );

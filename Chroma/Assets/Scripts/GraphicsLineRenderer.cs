@@ -23,10 +23,14 @@ public class GraphicsLineRenderer : MonoBehaviour
 
     private bool firstQuad = true;
 
+
     void Start()
     {
+
         ml = GetComponent<MeshFilter>().mesh;
         GetComponent<MeshRenderer>().material = lmat;
+
+      
     }
 
     public void setWidth(float width)
@@ -155,8 +159,21 @@ public class GraphicsLineRenderer : MonoBehaviour
         m.vertices = vs;
         m.uv = uvs;
         m.triangles = ts;
+        //MeshCollider collide = GetComponent<MeshCollider>();
+        //Rigidbody rg = GetComponent<Rigidbody>();
+        //rg.mass = 0;
         m.RecalculateBounds();
         m.RecalculateNormals();
+        //MeshCollider meshc = gameObject.AddComponent(typeof(MeshCollider)) as MeshCollider;
+        MeshCollider newmeshc = GetComponent<MeshCollider>();
+        newmeshc.sharedMesh = m;
+        //meshc.sharedMesh = m;
+        
+        //collide.sharedMesh.vertices = vs;
+        //collide.sharedMesh.triangles = ts;
+        //collide.sharedMesh.RecalculateBounds();
+        //collide.sharedMesh = m;
+
     }
 
     Vector3[] resizeVertices(Vector3[] ovs, int ns)

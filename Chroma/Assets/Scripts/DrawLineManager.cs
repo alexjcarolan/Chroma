@@ -1,6 +1,9 @@
 ﻿using System.Collections;
+
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using Valve.VR.InteractionSystem;
 
 public class DrawLineManager : MonoBehaviour
 {
@@ -9,11 +12,15 @@ public class DrawLineManager : MonoBehaviour
     //private LineRenderer currLine;
     private GraphicsLineRenderer currLine;
 
-    private int numClicks= 0;
+    // List to store all the drawn meshes
+    public List<GameObject> drawings = new List<GameObject>();
+
+    private int numClicks = 0;
+
 
     // Update is called once per frame
     void Update()
-    {  
+    {
         var device = SteamVR_Controller.Input((int)trackedObj.index);
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
@@ -21,12 +28,27 @@ public class DrawLineManager : MonoBehaviour
             //currLine = go.AddComponent<LineRenderer>();
             //currLine.startWidth = .1f;
             //currLine.endWidth = .1f;
+ 
+            currLine = go.AddComponent<GraphicsLineRenderer>();
+            //go.AddComponent<MeshCollider>();
+            
+
+            //go.AddComponent<MeshFilter>();
+            //go.AddComponent<MeshRenderer>();
             go.AddComponent<MeshFilter>();
             go.AddComponent<MeshRenderer>();
-            currLine = go.AddComponent<GraphicsLineRenderer>();
-            numClicks = 0;
+            go.AddComponent<MeshCollider>().convex = true;
 
-        }else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
+            go.AddComponent<Interactable>();
+            go.AddComponent<Rigidbody>().useGravity = false;
+            go.AddComponent<Throwable>();
+
+            //go.AddComponent<VelocityEstimator>();
+
+            drawings.Add(go);
+            numClicks = 0;
+        }
+        else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
             //currLine.positionCount=(numClicks + 1);
             //currLine.SetPosition(numClicks,trackedObj.transform.position );
@@ -34,5 +56,7 @@ public class DrawLineManager : MonoBehaviour
             numClicks++;
         }
 
+        // Printing the total number of meshes in the array
+        Debug.LogError($"Length of the drawings array is = {drawings.Count}");
     }
 }
