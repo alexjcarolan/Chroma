@@ -53,7 +53,7 @@ public class spawnpool : MonoBehaviour
                 t.name = "Arrow(Clone)";
                 t.transform.position = planepos + Random.insideUnitSphere * 5f;
                 t.GetComponent<Transform>().rotation = Random.rotation;
-                t.transform.localScale = Vector3.one * Random.Range(0.1f, 1f);
+                t.transform.localScale = new Vector3(3, 3, 3) * Random.Range(0.1f, 1f);
                 Rigidbody rb = t.GetComponent<Rigidbody>();
                 rb.AddForce(t.transform.localScale, ForceMode.Impulse);
                 rb.velocity *= 0.7f;
