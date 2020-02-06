@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Valve.VR.InteractionSystem;
+using HTC.UnityPlugin.Vive;
+using UnityEngine.Events;
 
 public class DrawLineManager : MonoBehaviour
 {
@@ -17,6 +19,11 @@ public class DrawLineManager : MonoBehaviour
 
     private int numClicks = 0;
 
+
+    void callback()
+    {
+
+    }
 
     // Update is called once per frame
     void Update()
@@ -40,7 +47,8 @@ public class DrawLineManager : MonoBehaviour
             go.AddComponent<MeshCollider>().convex = true;
 
             go.AddComponent<Interactable>();
-            go.AddComponent<Rigidbody>().useGravity = false;
+            Rigidbody rb = go.AddComponent<Rigidbody>();
+            rb.constraints = RigidbodyConstraints.FreezeAll;
             go.AddComponent<Throwable>();
 
             //go.AddComponent<VelocityEstimator>();
@@ -55,8 +63,8 @@ public class DrawLineManager : MonoBehaviour
             currLine.AddPoint(trackedObj.transform.position);
             numClicks++;
         }
-
+        
         // Printing the total number of meshes in the array
-        Debug.LogError($"Length of the drawings array is = {drawings.Count}");
+        //Debug.LogError($"Length of the drawings array is = {drawings.Count}");
     }
 }

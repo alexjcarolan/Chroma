@@ -87,7 +87,7 @@ namespace Valve.VR.InteractionSystem
 
 		private Player playerInstance;
 
-		private GameObject applicationLostFocusObject;
+	    public GameObject applicationLostFocusObject;
 
 		SteamVR_Events.Action inputFocusAction;
 
