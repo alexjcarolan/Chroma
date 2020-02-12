@@ -28,7 +28,7 @@ public class CubeSpawner : MonoBehaviour
             GameObject spawned = Instantiate(ball, transform.position, q) as GameObject;
             ball.name = "Ball";
             spawned.GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 1) * velocity);
-            Destroy(spawned, 6f);
+            Destroy(spawned, 8f);
             //arrow.GetComponent<Rigidbody>().velocity = arrowVelocity;
             
             if(bridge.GetComponent<Animator>().enabled == true)
