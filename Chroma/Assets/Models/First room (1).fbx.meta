@@ -1,0 +1,367 @@
+fileFormatVersion: 2
+guid: 8cb259052f64dd343bf8a4fe730aff29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bend
+    100002: bridge_1
+    100004: bridge_2
+    100006: bridge_3
+    100008: cross
+    100010: //RootNode
+    100012: floor
+    100014: floor 1
+    100016: floor 2
+    100018: floor 3
+    100020: floor_0
+    100022: floor_1
+    100024: floor_2
+    100026: floor_3
+    100028: floor_4
+    100030: hole
+    100032: short_wall
+    100034: short_wall_1
+    100036: short_wall_10
+    100038: short_wall_11
+    100040: short_wall_12
+    100042: short_wall_2
+    100044: short_wall_3
+    100046: short_wall_4
+    100048: short_wall_5
+    100050: short_wall_6
+    100052: short_wall_7
+    100054: short_wall_8
+    100056: short_wall_9
+    100058: slab
+    100060: slab 1
+    100062: slab 2
+    100064: slab 3
+    100066: slab 4
+    100068: slab 5
+    100070: slab 6
+    100072: slab 7
+    100074: slab_left
+    100076: slab_left 1
+    100078: slab_left 2
+    100080: slab_left 3
+    100082: slab_left 4
+    100084: slab_right
+    100086: slab_right 1
+    100088: slab_right 2
+    100090: slab_right 3
+    100092: slab_right 4
+    100094: teleport
+    100096: teleport 1
+    100098: teleport 2
+    100100: teleport 3
+    100102: wall
+    100104: wall 1
+    100106: wall 10
+    100108: wall 11
+    100110: wall 12
+    100112: wall 2
+    100114: wall 3
+    100116: wall 4
+    100118: wall 5
+    100120: wall 6
+    100122: wall 7
+    100124: wall 8
+    100126: wall 9
+    100128: wall_1
+    100130: wall_2
+    400000: bend
+    400002: bridge_1
+    400004: bridge_2
+    400006: bridge_3
+    400008: cross
+    400010: //RootNode
+    400012: floor
+    400014: floor 1
+    400016: floor 2
+    400018: floor 3
+    400020: floor_0
+    400022: floor_1
+    400024: floor_2
+    400026: floor_3
+    400028: floor_4
+    400030: hole
+    400032: short_wall
+    400034: short_wall_1
+    400036: short_wall_10
+    400038: short_wall_11
+    400040: short_wall_12
+    400042: short_wall_2
+    400044: short_wall_3
+    400046: short_wall_4
+    400048: short_wall_5
+    400050: short_wall_6
+    400052: short_wall_7
+    400054: short_wall_8
+    400056: short_wall_9
+    400058: slab
+    400060: slab 1
+    400062: slab 2
+    400064: slab 3
+    400066: slab 4
+    400068: slab 5
+    400070: slab 6
+    400072: slab 7
+    400074: slab_left
+    400076: slab_left 1
+    400078: slab_left 2
+    400080: slab_left 3
+    400082: slab_left 4
+    400084: slab_right
+    400086: slab_right 1
+    400088: slab_right 2
+    400090: slab_right 3
+    400092: slab_right 4
+    400094: teleport
+    400096: teleport 1
+    400098: teleport 2
+    400100: teleport 3
+    400102: wall
+    400104: wall 1
+    400106: wall 10
+    400108: wall 11
+    400110: wall 12
+    400112: wall 2
+    400114: wall 3
+    400116: wall 4
+    400118: wall 5
+    400120: wall 6
+    400122: wall 7
+    400124: wall 8
+    400126: wall 9
+    400128: wall_1
+    400130: wall_2
+    2100000: lambert1
+    2100002: lambert2
+    2300000: bridge_1
+    2300002: bridge_2
+    2300004: bridge_3
+    2300006: cross
+    2300008: floor
+    2300010: floor 1
+    2300012: floor 2
+    2300014: floor 3
+    2300016: floor_0
+    2300018: hole
+    2300020: slab
+    2300022: slab 1
+    2300024: slab 2
+    2300026: slab 3
+    2300028: slab 4
+    2300030: slab 5
+    2300032: slab 6
+    2300034: slab 7
+    2300036: slab_left
+    2300038: slab_left 1
+    2300040: slab_left 2
+    2300042: slab_left 3
+    2300044: slab_left 4
+    2300046: slab_right
+    2300048: slab_right 1
+    2300050: slab_right 2
+    2300052: slab_right 3
+    2300054: slab_right 4
+    2300056: teleport
+    2300058: teleport 1
+    2300060: teleport 2
+    2300062: teleport 3
+    2300064: wall
+    2300066: wall 1
+    2300068: wall 10
+    2300070: wall 11
+    2300072: wall 12
+    2300074: wall 2
+    2300076: wall 3
+    2300078: wall 4
+    2300080: wall 5
+    2300082: wall 6
+    2300084: wall 7
+    2300086: wall 8
+    2300088: wall 9
+    2300090: wall_1
+    2300092: wall_2
+    3300000: bridge_1
+    3300002: bridge_2
+    3300004: bridge_3
+    3300006: cross
+    3300008: floor
+    3300010: floor 1
+    3300012: floor 2
+    3300014: floor 3
+    3300016: floor_0
+    3300018: hole
+    3300020: slab
+    3300022: slab 1
+    3300024: slab 2
+    3300026: slab 3
+    3300028: slab 4
+    3300030: slab 5
+    3300032: slab 6
+    3300034: slab 7
+    3300036: slab_left
+    3300038: slab_left 1
+    3300040: slab_left 2
+    3300042: slab_left 3
+    3300044: slab_left 4
+    3300046: slab_right
+    3300048: slab_right 1
+    3300050: slab_right 2
+    3300052: slab_right 3
+    3300054: slab_right 4
+    3300056: teleport
+    3300058: teleport 1
+    3300060: teleport 2
+    3300062: teleport 3
+    3300064: wall
+    3300066: wall 1
+    3300068: wall 10
+    3300070: wall 11
+    3300072: wall 12
+    3300074: wall 2
+    3300076: wall 3
+    3300078: wall 4
+    3300080: wall 5
+    3300082: wall 6
+    3300084: wall 7
+    3300086: wall 8
+    3300088: wall 9
+    3300090: wall_1
+    3300092: wall_2
+    4300000: wall_1
+    4300002: wall_2
+    4300004: floor_0
+    4300006: floor
+    4300008: teleport
+    4300010: floor
+    4300012: teleport
+    4300014: floor
+    4300016: teleport
+    4300018: floor
+    4300020: teleport
+    4300022: bridge_1
+    4300024: bridge_2
+    4300026: bridge_3
+    4300028: wall
+    4300030: slab
+    4300032: wall
+    4300034: slab_left
+    4300036: slab_right
+    4300038: wall
+    4300040: slab
+    4300042: wall
+    4300044: slab
+    4300046: wall
+    4300048: slab_left
+    4300050: slab_right
+    4300052: wall
+    4300054: slab_left
+    4300056: slab_right
+    4300058: wall
+    4300060: slab
+    4300062: wall
+    4300064: slab
+    4300066: wall
+    4300068: slab_left
+    4300070: slab_right
+    4300072: wall
+    4300074: slab_left
+    4300076: slab_right
+    4300078: wall
+    4300080: slab
+    4300082: wall
+    4300084: slab
+    4300086: wall
+    4300088: slab
+    4300090: hole
+    4300092: cross
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -32,7 +32,6 @@ public class UnlockTeleportArea : MonoBehaviour
         if (bridge2.GetComponent<Animator>().enabled == true)
         {
             teleport3.GetComponent<TeleportArea>().locked = false;
-            teleport2.GetComponent<TeleportArea>().locked = true;
         }
         if (bridge3.GetComponent<Animator>().enabled == true)
         {

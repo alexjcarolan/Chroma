@@ -26,43 +26,44 @@ public class spawnpool : MonoBehaviour
         objectspawn();
         waittime = 600;
         waitedtime = 0;
-        
+
     }
 
-   
+
     // Update is called once per frame
     void Update()
     {
         distance = Distance(cameraPos.transform.position, teleportArea3.transform.position);
-       
-        
+
+
         objectspawn();
     }
 
     void objectspawn()
     {
-        
+
         if (waitedtime == waittime)
         {
             noOfRocks = (noOfRocks + 25) % 101;
             if (noOfRocks == 24)
                 noOfRocks = 25;
             for (int j = 0; j < noOfRocks; j++)
-            {        
+            {
                 GameObject t = Instantiate(prefab, planepos, Quaternion.identity) as GameObject;
                 t.name = "Arrow(Clone)";
                 t.transform.position = planepos + Random.insideUnitSphere * 5f;
                 t.GetComponent<Transform>().rotation = Random.rotation;
-                t.transform.localScale = new Vector3(3, 3, 3) * Random.Range(0.1f, 1f);
+                t.transform.localScale = Vector3.one * Random.Range(0.1f, 1f);
                 Rigidbody rb = t.GetComponent<Rigidbody>();
                 rb.AddForce(t.transform.localScale, ForceMode.Impulse);
                 rb.velocity *= 0.7f;
                 physics();
                 waitedtime = 0;
             }
-            if (distance <= 1.5) {
+            if (distance <= 1.5)
+            {
                 counter += 1;
-                print($"dist = {distance}");
+                //print($"dist = {distance}");
                 print($"counter : {counter}");
             }
             if (counter >= 4)
@@ -70,10 +71,11 @@ public class spawnpool : MonoBehaviour
                 bridge3.GetComponent<Animator>().enabled = true;
                 this.GetComponent<spawnpool>().enabled = false;
             }
-            
+
             //print("counter is " + counter.ToString());
         }
-        else {
+        else
+        {
             waitedtime += 1;
         }
     }

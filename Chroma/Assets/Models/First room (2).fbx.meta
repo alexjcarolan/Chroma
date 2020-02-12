@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 3219ff766368194488f7ab660720edb1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bend
+    100002: bridge
+    100004: bridge 1
+    100006: bridge 2
+    100008: cross
+    100010: //RootNode
+    100012: floor
+    100014: floor 1
+    100016: floor 2
+    100018: floor 3
+    100020: floor_0
+    100022: floor_1
+    100024: floor_2
+    100026: floor_3
+    100028: floor_4
+    100030: hole
+    100032: short_wall
+    100034: short_wall_1
+    100036: short_wall_2
+    100038: short_wall_3
+    100040: slab
+    100042: slab_back
+    100044: slab_left
+    100046: slab_left 1
+    100048: slab_left 2
+    100050: slab_right
+    100052: slab_right 1
+    100054: slab_right 2
+    100056: teleport
+    100058: teleport 1
+    100060: teleport 2
+    100062: teleport 3
+    100064: wall
+    100066: wall_1
+    100068: wall_1 1
+    100070: wall_1 2
+    100072: wall_1 3
+    100074: wall_2
+    100076: wall_2 1
+    100078: wall_2 2
+    100080: wall_2 3
+    100082: wall_left
+    100084: wall_left 1
+    100086: wall_left 2
+    100088: wall_right
+    100090: wall_right 1
+    100092: wall_right 2
+    400000: bend
+    400002: bridge
+    400004: bridge 1
+    400006: bridge 2
+    400008: cross
+    400010: //RootNode
+    400012: floor
+    400014: floor 1
+    400016: floor 2
+    400018: floor 3
+    400020: floor_0
+    400022: floor_1
+    400024: floor_2
+    400026: floor_3
+    400028: floor_4
+    400030: hole
+    400032: short_wall
+    400034: short_wall_1
+    400036: short_wall_2
+    400038: short_wall_3
+    400040: slab
+    400042: slab_back
+    400044: slab_left
+    400046: slab_left 1
+    400048: slab_left 2
+    400050: slab_right
+    400052: slab_right 1
+    400054: slab_right 2
+    400056: teleport
+    400058: teleport 1
+    400060: teleport 2
+    400062: teleport 3
+    400064: wall
+    400066: wall_1
+    400068: wall_1 1
+    400070: wall_1 2
+    400072: wall_1 3
+    400074: wall_2
+    400076: wall_2 1
+    400078: wall_2 2
+    400080: wall_2 3
+    400082: wall_left
+    400084: wall_left 1
+    400086: wall_left 2
+    400088: wall_right
+    400090: wall_right 1
+    400092: wall_right 2
+    2100000: lambert1
+    2300000: bridge
+    2300002: bridge 1
+    2300004: bridge 2
+    2300006: cross
+    2300008: floor
+    2300010: floor 1
+    2300012: floor 2
+    2300014: floor 3
+    2300016: floor_0
+    2300018: hole
+    2300020: slab
+    2300022: slab_back
+    2300024: slab_left
+    2300026: slab_left 1
+    2300028: slab_left 2
+    2300030: slab_right
+    2300032: slab_right 1
+    2300034: slab_right 2
+    2300036: teleport
+    2300038: teleport 1
+    2300040: teleport 2
+    2300042: teleport 3
+    2300044: wall
+    2300046: wall_1
+    2300048: wall_1 1
+    2300050: wall_1 2
+    2300052: wall_1 3
+    2300054: wall_2
+    2300056: wall_2 1
+    2300058: wall_2 2
+    2300060: wall_2 3
+    2300062: wall_left
+    2300064: wall_left 1
+    2300066: wall_left 2
+    2300068: wall_right
+    2300070: wall_right 1
+    2300072: wall_right 2
+    3300000: bridge
+    3300002: bridge 1
+    3300004: bridge 2
+    3300006: cross
+    3300008: floor
+    3300010: floor 1
+    3300012: floor 2
+    3300014: floor 3
+    3300016: floor_0
+    3300018: hole
+    3300020: slab
+    3300022: slab_back
+    3300024: slab_left
+    3300026: slab_left 1
+    3300028: slab_left 2
+    3300030: slab_right
+    3300032: slab_right 1
+    3300034: slab_right 2
+    3300036: teleport
+    3300038: teleport 1
+    3300040: teleport 2
+    3300042: teleport 3
+    3300044: wall
+    3300046: wall_1
+    3300048: wall_1 1
+    3300050: wall_1 2
+    3300052: wall_1 3
+    3300054: wall_2
+    3300056: wall_2 1
+    3300058: wall_2 2
+    3300060: wall_2 3
+    3300062: wall_left
+    3300064: wall_left 1
+    3300066: wall_left 2
+    3300068: wall_right
+    3300070: wall_right 1
+    3300072: wall_right 2
+    4300000: wall_1
+    4300002: wall_2
+    4300004: floor_0
+    4300006: floor
+    4300008: bridge
+    4300010: teleport
+    4300012: floor
+    4300014: bridge
+    4300016: teleport
+    4300018: floor
+    4300020: bridge
+    4300022: teleport
+    4300024: floor
+    4300026: teleport
+    4300028: wall
+    4300030: slab
+    4300032: wall_1
+    4300034: wall_2
+    4300036: wall_left
+    4300038: wall_right
+    4300040: slab_left
+    4300042: slab_right
+    4300044: wall_1
+    4300046: wall_2
+    4300048: wall_left
+    4300050: wall_right
+    4300052: slab_left
+    4300054: slab_right
+    4300056: wall_1
+    4300058: wall_2
+    4300060: wall_left
+    4300062: wall_right
+    4300064: slab_left
+    4300066: slab_right
+    4300068: slab_back
+    4300070: hole
+    4300072: cross
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
