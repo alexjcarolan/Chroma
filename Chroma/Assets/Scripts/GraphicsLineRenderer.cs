@@ -19,7 +19,7 @@ public class GraphicsLineRenderer : MonoBehaviour
 
     private Vector3 s;
 
-    private float lineSize = .1f;
+    public static float lineSize = 0.01f;
 
     private bool firstQuad = true;
 
