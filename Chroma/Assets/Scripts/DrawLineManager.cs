@@ -18,6 +18,9 @@ public class DrawLineManager : MonoBehaviour
     public List<GameObject> drawings = new List<GameObject>();
 
     private int numClicks = 0;
+    private bool doubleClick;
+    private float clickTimer;
+    private float timeBetweenClicks = 1;
 
 
     void callback()
@@ -29,8 +32,30 @@ public class DrawLineManager : MonoBehaviour
     void Update()
     {
         var device = SteamVR_Controller.Input((int)trackedObj.index);
+        clickTimer += Time.deltaTime;
+        print(GraphicsLineRenderer.lineSize);
+
+        if (clickTimer > timeBetweenClicks)
+        {
+            clickTimer = 0;
+            doubleClick = false;
+        }
+
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
+            if(doubleClick)
+            {
+                if (GraphicsLineRenderer.lineSize < 0.52f)
+                {
+                    GraphicsLineRenderer.lineSize += 0.1f;
+                }
+            }
+            else
+            {
+                doubleClick = true;
+                //GraphicsLineRenderer.lineSize = 0.01f;
+            }
+
             GameObject go = new GameObject();
             //currLine = go.AddComponent<LineRenderer>();
             //currLine.startWidth = .1f;
@@ -58,8 +83,6 @@ public class DrawLineManager : MonoBehaviour
         }
         else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
-            //currLine.positionCount=(numClicks + 1);
-            //currLine.SetPosition(numClicks,trackedObj.transform.position );
             currLine.AddPoint(trackedObj.transform.position);
             numClicks++;
         }
