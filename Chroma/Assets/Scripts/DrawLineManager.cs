@@ -10,17 +10,26 @@ using UnityEngine.Events;
 public class DrawLineManager : MonoBehaviour
 {
     // Start is called before the first frame update
+    public Material draw_material;
     public SteamVR_TrackedObject trackedObj;
     //private LineRenderer currLine;
     private GraphicsLineRenderer currLine;
 
     // List to store all the drawn meshes
     public List<GameObject> drawings = new List<GameObject>();
+    private List<float> lineSizes = new List<float> { 0.01f, 0.11f, 0.21f, 0.31f, 0.41f, 0.51f };
 
     private int numClicks = 0;
     private bool doubleClick;
     private float clickTimer;
     private float timeBetweenClicks = 1;
+    private int lineIndex = 0;
+
+    void Start()
+    {
+        GraphicsLineRenderer.lmat = draw_material;
+    }
+
 
 
     void callback()
@@ -32,29 +41,33 @@ public class DrawLineManager : MonoBehaviour
     void Update()
     {
         var device = SteamVR_Controller.Input((int)trackedObj.index);
-        clickTimer += Time.deltaTime;
-        print(GraphicsLineRenderer.lineSize);
+        //clickTimer += Time.deltaTime;
+        //print(GraphicsLineRenderer.lineSize);
 
-        if (clickTimer > timeBetweenClicks)
-        {
-            clickTimer = 0;
-            doubleClick = false;
-        }
+        //if (clickTimer > timeBetweenClicks)
+        //{
+        //    clickTimer = 0;
+        //    doubleClick = false;
+        //}
 
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
-            if(doubleClick)
-            {
-                if (GraphicsLineRenderer.lineSize < 0.52f)
-                {
-                    GraphicsLineRenderer.lineSize += 0.1f;
-                }
-            }
-            else
-            {
-                doubleClick = true;
-                //GraphicsLineRenderer.lineSize = 0.01f;
-            }
+            //print("press");
+            //if(doubleClick)
+            //{
+            //    print("DOUBLE CLICKED");
+
+            //    lineIndex += 1;
+            //    lineIndex = lineIndex % (lineSizes.Count);
+            //    GraphicsLineRenderer.lineSize = lineSizes[lineIndex];
+            //    print(GraphicsLineRenderer.lineSize);
+               
+            //}
+            //else
+            //{
+            //    doubleClick = true;
+            //    //GraphicsLineRenderer.lineSize = 0.01f;
+            //}
 
             GameObject go = new GameObject();
             //currLine = go.AddComponent<LineRenderer>();
@@ -63,10 +76,7 @@ public class DrawLineManager : MonoBehaviour
  
             currLine = go.AddComponent<GraphicsLineRenderer>();
             //go.AddComponent<MeshCollider>();
-            
-
-            //go.AddComponent<MeshFilter>();
-            //go.AddComponent<MeshRenderer>();
+           
             go.AddComponent<MeshFilter>();
             go.AddComponent<MeshRenderer>();
             go.AddComponent<MeshCollider>().convex = true;
@@ -85,8 +95,17 @@ public class DrawLineManager : MonoBehaviour
         {
             currLine.AddPoint(trackedObj.transform.position);
             numClicks++;
+            print("touched");
         }
-        
+
+        if (device.GetPressDown(SteamVR_Controller.ButtonMask.ApplicationMenu))
+        {
+            lineIndex += 1;
+            lineIndex = lineIndex % (lineSizes.Count);
+            GraphicsLineRenderer.lineSize = lineSizes[lineIndex];
+            print(GraphicsLineRenderer.lineSize);
+        }
+
         // Printing the total number of meshes in the array
         //Debug.LogError($"Length of the drawings array is = {drawings.Count}");
     }
