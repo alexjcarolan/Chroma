@@ -7,6 +7,8 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using HTC.UnityPlugin.Vive;
+
 
 namespace Valve.VR.InteractionSystem
 {
@@ -234,8 +236,9 @@ namespace Valve.VR.InteractionSystem
 			Hand oldPointerHand = pointerHand;
 			Hand newPointerHand = null;
 
-			foreach ( Hand hand in player.hands )
-			{
+            Hand hand = player.rightHand;
+   //         foreach ( Hand hand in player.hands )
+			//{
 				if ( visible )
 				{
 					if ( WasTeleportButtonReleased( hand ) )
@@ -247,11 +250,11 @@ namespace Valve.VR.InteractionSystem
 					}
 				}
 
-				if ( WasTeleportButtonPressed( hand ) )
+				if ( WasTeleportButtonPressed( hand ))
 				{
 					newPointerHand = hand;
 				}
-			}
+			//}
 
 			//If something is attached to the hand that is preventing teleport
 			if ( allowTeleportWhileAttached && !allowTeleportWhileAttached.teleportAllowed )
@@ -952,12 +955,15 @@ namespace Valve.VR.InteractionSystem
 		{
 			if ( hintCoroutine != null )
 			{
-				foreach ( Hand hand in player.hands )
-				{
-					ControllerButtonHints.HideTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad );
-				}
+                Hand hand = player.rightHand;
+                //foreach ( Hand hand in player.hands )
+                //{
+                ControllerButtonHints.HideTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad );
+               // ControllerButtonHints.HideTextHint(hand, EVRButtonId.k_EButton_ApplicationMenu);
 
-				StopCoroutine( hintCoroutine );
+                //}
+
+                StopCoroutine( hintCoroutine );
 				hintCoroutine = null;
 			}
 
@@ -975,17 +981,21 @@ namespace Valve.VR.InteractionSystem
 			{
 				bool pulsed = false;
 
-				//Show the hint on each eligible hand
-				foreach ( Hand hand in player.hands )
-				{
+                //Show the hint on each eligible hand
+                Hand hand = player.rightHand;
+    //            foreach ( Hand hand in player.hands )
+				//{
 					bool showHint = IsEligibleForTeleport( hand );
-					bool isShowingHint = !string.IsNullOrEmpty( ControllerButtonHints.GetActiveHintText( hand, EVRButtonId.k_EButton_SteamVR_Touchpad ) );
-					if ( showHint )
+                bool isShowingHint = !string.IsNullOrEmpty( ControllerButtonHints.GetActiveHintText( hand, EVRButtonId.k_EButton_SteamVR_Touchpad ) );
+                //bool isShowingHint = !string.IsNullOrEmpty(ControllerButtonHints.GetActiveHintText(hand, EVRButtonId.k_EButton_ApplicationMenu));
+                if ( showHint )
 					{
 						if ( !isShowingHint )
 						{
-							ControllerButtonHints.ShowTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad, "Teleport" );
-							prevBreakTime = Time.time;
+                        ControllerButtonHints.ShowTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad, "Teleport" );
+                        //ControllerButtonHints.ShowTextHint(hand, EVRButtonId.k_EButton_ApplicationMenu, "Teleport");
+
+                        prevBreakTime = Time.time;
 							prevHapticPulseTime = Time.time;
 						}
 
@@ -999,11 +1009,12 @@ namespace Valve.VR.InteractionSystem
 					}
 					else if ( !showHint && isShowingHint )
 					{
-						ControllerButtonHints.HideTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad );
-					}
-				}
+                    ControllerButtonHints.HideTextHint( hand, EVRButtonId.k_EButton_SteamVR_Touchpad );
+                    //ControllerButtonHints.HideTextHint(hand, EVRButtonId.k_EButton_SteamVR_Touchpad);
+                }
+                //}
 
-				if ( Time.time > prevBreakTime + 3.0f )
+                if ( Time.time > prevBreakTime + 3.0f )
 				{
 					//Take a break for a few seconds
 					yield return new WaitForSeconds( 3.0f );
@@ -1089,9 +1100,11 @@ namespace Valve.VR.InteractionSystem
 				}
 				else
 				{
-					return hand.controller.GetPressUp( SteamVR_Controller.ButtonMask.Touchpad );
-				}
-			}
+                    return hand.controller.GetPressUp( SteamVR_Controller.ButtonMask.Touchpad );
+                    //return (ViveInput.GetPressUp(HandRole.RightHand, ControllerButton.Menu));
+
+                }
+            }
 
 			return false;
 		}
@@ -1108,9 +1121,11 @@ namespace Valve.VR.InteractionSystem
 				}
 				else
 				{
-					return hand.controller.GetPress( SteamVR_Controller.ButtonMask.Touchpad );
-				}
-			}
+                    return hand.controller.GetPress( SteamVR_Controller.ButtonMask.Touchpad );
+                    //return (ViveInput.GetPress(HandRole.RightHand, ControllerButton.Menu));
+
+                }
+            }
 
 			return false;
 		}
@@ -1128,7 +1143,9 @@ namespace Valve.VR.InteractionSystem
 				else
 				{
 					return hand.controller.GetPressDown( SteamVR_Controller.ButtonMask.Touchpad );
-				}
+                    //return (ViveInput.GetPressDown(HandRole.RightHand, ControllerButton.Menu));
+
+                }
 			}
 
 			return false;
