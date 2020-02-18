@@ -13,7 +13,7 @@ class Point {
 public class GraphicsLineRenderer : MonoBehaviour
 {
 
-    public Material lmat;
+    public static Material lmat;
 
     private Mesh ml;
 
@@ -28,6 +28,7 @@ public class GraphicsLineRenderer : MonoBehaviour
     {
 
         ml = GetComponent<MeshFilter>().mesh;
+        print(GetComponent<MeshRenderer>().material.name);
         GetComponent<MeshRenderer>().material = lmat;
 
       

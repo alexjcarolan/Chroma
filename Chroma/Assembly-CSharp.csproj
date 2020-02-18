@@ -196,6 +196,7 @@
      <Compile Include="Assets\Scripts\DeathCheckpoints.cs" />
      <Compile Include="Assets\Scripts\DestroyPool.cs" />
      <Compile Include="Assets\Scripts\DrawLineManager.cs" />
+     <Compile Include="Assets\Scripts\EraseDrawings.cs" />
      <Compile Include="Assets\Scripts\FireflyFlying.cs" />
      <Compile Include="Assets\Scripts\GraphicsLineRenderer.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
