@@ -24,6 +24,8 @@ public class DrawLineManager : MonoBehaviour
     private float clickTimer;
     private float timeBetweenClicks = 1;
     private int lineIndex = 0;
+    public static Transform child = null;
+    public static Transform parent = null;
 
     void Start()
     {
@@ -70,6 +72,9 @@ public class DrawLineManager : MonoBehaviour
             //}
 
             GameObject go = new GameObject();
+            go.name = "drawing";
+          // go.transform.gameObject.tag = "drawing";
+           // go.tag = "drawing";
             //currLine = go.AddComponent<LineRenderer>();
             //currLine.startWidth = .1f;
             //currLine.endWidth = .1f;
@@ -85,11 +90,17 @@ public class DrawLineManager : MonoBehaviour
             Rigidbody rb = go.AddComponent<Rigidbody>();
             rb.constraints = RigidbodyConstraints.FreezeAll;
             go.AddComponent<Throwable>();
+            go.AddComponent<HingeJoint>();
+          
+            //go.AddComponent<MeshCollider>().isTrigger = true;
+            
+
 
             //go.AddComponent<VelocityEstimator>();
 
             drawings.Add(go);
             numClicks = 0;
+            go.AddComponent<DrawingsAttach>();
         }
         else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
