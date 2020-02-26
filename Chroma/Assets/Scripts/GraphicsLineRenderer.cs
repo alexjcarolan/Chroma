@@ -31,7 +31,7 @@ public class GraphicsLineRenderer : MonoBehaviour
         print(GetComponent<MeshRenderer>().material.name);
         GetComponent<MeshRenderer>().material = lmat;
 
-      
+
     }
 
     public void setWidth(float width)
@@ -169,7 +169,7 @@ public class GraphicsLineRenderer : MonoBehaviour
         MeshCollider newmeshc = GetComponent<MeshCollider>();
         newmeshc.sharedMesh = m;
         //meshc.sharedMesh = m;
-        
+
         //collide.sharedMesh.vertices = vs;
         //collide.sharedMesh.triangles = ts;
         //collide.sharedMesh.RecalculateBounds();
