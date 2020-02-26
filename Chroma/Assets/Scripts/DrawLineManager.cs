@@ -15,8 +15,10 @@ public class DrawLineManager : MonoBehaviour
     //private LineRenderer currLine;
     private GraphicsLineRenderer currLine;
 
+    public static int drawingCount;
+
     // List to store all the drawn meshes
-    public List<GameObject> drawings = new List<GameObject>();
+    public static List<GameObject> drawings = new List<GameObject>();
     private List<float> lineSizes = new List<float> { 0.01f, 0.11f, 0.21f, 0.31f, 0.41f, 0.51f };
 
     private int numClicks = 0;
@@ -30,6 +32,7 @@ public class DrawLineManager : MonoBehaviour
     void Start()
     {
         GraphicsLineRenderer.lmat = draw_material;
+        drawingCount = drawings.Count;
     }
 
 
@@ -51,7 +54,7 @@ public class DrawLineManager : MonoBehaviour
         //    clickTimer = 0;
         //    doubleClick = false;
         //}
-
+        drawingCount = drawings.Count;
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
             //print("press");
@@ -72,9 +75,9 @@ public class DrawLineManager : MonoBehaviour
             //}
 
             GameObject go = new GameObject();
-            go.name = "drawing";
+            go.name = "drawing"+drawingCount;
           // go.transform.gameObject.tag = "drawing";
-           // go.tag = "drawing";
+            go.tag = "Drawing";
             //currLine = go.AddComponent<LineRenderer>();
             //currLine.startWidth = .1f;
             //currLine.endWidth = .1f;
@@ -85,22 +88,19 @@ public class DrawLineManager : MonoBehaviour
             go.AddComponent<MeshFilter>();
             go.AddComponent<MeshRenderer>();
             go.AddComponent<MeshCollider>().convex = true;
-
+            go.AddComponent<DrawingsAttach>();
             go.AddComponent<Interactable>();
             Rigidbody rb = go.AddComponent<Rigidbody>();
+            go.AddComponent<DrawingStruct>().startTime = Time.time;
             rb.constraints = RigidbodyConstraints.FreezeAll;
             go.AddComponent<Throwable>();
-            go.AddComponent<HingeJoint>();
-          
+
             //go.AddComponent<MeshCollider>().isTrigger = true;
-            
-
-
             //go.AddComponent<VelocityEstimator>();
-
+            
             drawings.Add(go);
             numClicks = 0;
-            go.AddComponent<DrawingsAttach>();
+            
         }
         else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
