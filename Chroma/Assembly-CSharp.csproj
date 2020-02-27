@@ -202,8 +202,8 @@
      <Compile Include="Assets\Scripts\EraseDrawings.cs" />
      <Compile Include="Assets\Scripts\FireflyFlying.cs" />
      <Compile Include="Assets\Scripts\GraphicsLineRenderer.cs" />
-     <Compile Include="Assets\Scripts\JoinDrawings.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
+     <Compile Include="Assets\Scripts\Mass_DLM.cs" />
      <Compile Include="Assets\Scripts\ParentSwapper.cs" />
      <Compile Include="Assets\Scripts\ScreenCapture.cs" />
      <Compile Include="Assets\Scripts\ShowFlame.cs" />

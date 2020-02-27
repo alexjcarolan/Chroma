@@ -20,6 +20,7 @@ public class GraphicsLineRenderer : MonoBehaviour
     private Vector3 s;
 
     public static float lineSize = 0.01f;
+    public int vertCount;
 
     private bool firstQuad = true;
 
@@ -37,6 +38,11 @@ public class GraphicsLineRenderer : MonoBehaviour
     public void setWidth(float width)
     {
         lineSize = width;
+    }
+
+    public void Update()
+    {
+        vertCount = ml.vertexCount;
     }
 
     public void AddPoint(Vector3 point)
