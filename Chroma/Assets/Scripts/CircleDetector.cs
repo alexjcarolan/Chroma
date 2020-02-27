@@ -28,7 +28,7 @@ public class CircleDetector : MonoBehaviour
     public static void CallFunction()
     {
         
-        GameObject ob = GameObject.Find("drawing");
+        GameObject ob = GameObject.FindGameObjectWithTag("Drawing");
         if (ob != null && flag == false)
         {
             int det = Dll.Load();

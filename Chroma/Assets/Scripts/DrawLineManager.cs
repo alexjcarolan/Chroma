@@ -6,6 +6,7 @@ using UnityEngine;
 using Valve.VR.InteractionSystem;
 using HTC.UnityPlugin.Vive;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 
 public class DrawLineManager : MonoBehaviour
 {
@@ -26,8 +27,7 @@ public class DrawLineManager : MonoBehaviour
     private float clickTimer;
     private float timeBetweenClicks = 1;
     private int lineIndex = 0;
-    public static Transform child = null;
-    public static Transform parent = null;
+    private GameObject go;
 
     void Start()
     {
@@ -46,41 +46,13 @@ public class DrawLineManager : MonoBehaviour
     void Update()
     {
         var device = SteamVR_Controller.Input((int)trackedObj.index);
-        //clickTimer += Time.deltaTime;
-        //print(GraphicsLineRenderer.lineSize);
 
-        //if (clickTimer > timeBetweenClicks)
-        //{
-        //    clickTimer = 0;
-        //    doubleClick = false;
-        //}
         drawingCount = drawings.Count;
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
-            //print("press");
-            //if(doubleClick)
-            //{
-            //    print("DOUBLE CLICKED");
-
-            //    lineIndex += 1;
-            //    lineIndex = lineIndex % (lineSizes.Count);
-            //    GraphicsLineRenderer.lineSize = lineSizes[lineIndex];
-            //    print(GraphicsLineRenderer.lineSize);
-               
-            //}
-            //else
-            //{
-            //    doubleClick = true;
-            //    //GraphicsLineRenderer.lineSize = 0.01f;
-            //}
-
-            GameObject go = new GameObject();
+            go = new GameObject();
             go.name = "drawing"+drawingCount;
-          // go.transform.gameObject.tag = "drawing";
             go.tag = "Drawing";
-            //currLine = go.AddComponent<LineRenderer>();
-            //currLine.startWidth = .1f;
-            //currLine.endWidth = .1f;
  
             currLine = go.AddComponent<GraphicsLineRenderer>();
             //go.AddComponent<MeshCollider>();
@@ -92,7 +64,7 @@ public class DrawLineManager : MonoBehaviour
             go.AddComponent<Interactable>();
             Rigidbody rb = go.AddComponent<Rigidbody>();
             go.AddComponent<DrawingStruct>().startTime = Time.time;
-            rb.constraints = RigidbodyConstraints.FreezeAll;
+            rb.constraints = RigidbodyConstraints.FreezeAll; 
             go.AddComponent<Throwable>();
 
             //go.AddComponent<MeshCollider>().isTrigger = true;
@@ -101,6 +73,14 @@ public class DrawLineManager : MonoBehaviour
             drawings.Add(go);
             numClicks = 0;
             
+        }
+        else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
+        {
+            print("TOUCH UP");
+            if (SceneManager.GetActiveScene().name == "secondRoom")
+            {
+                Mass_DLM.setMass(go);
+            }
         }
         else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
         {
