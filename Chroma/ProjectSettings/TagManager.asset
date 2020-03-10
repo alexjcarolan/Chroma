@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Drawing
+  - LeftController
   layers:
   - Default
   - TransparentFX

@@ -25,7 +25,7 @@ public class EraseDrawings : MonoBehaviour
         print("update:this is bool pressed: " + boolpressed);
     }
 
-    public void OnCollisionStay(Collision other)
+    public void OnTriggerStay(Collider other)
     {
         print("COLLIDED");
         print("got graphics rend "+ other.gameObject.GetComponent<GraphicsLineRenderer>() != null);

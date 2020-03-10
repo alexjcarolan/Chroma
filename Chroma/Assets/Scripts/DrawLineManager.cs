@@ -27,6 +27,9 @@ public class DrawLineManager : MonoBehaviour
     private float clickTimer;
     private float timeBetweenClicks = 1;
     private int lineIndex = 0;
+    public static Transform child = null;
+    public static Transform parent = null;
+
     private GameObject go;
 
     void Start()
@@ -50,29 +53,30 @@ public class DrawLineManager : MonoBehaviour
         drawingCount = drawings.Count;
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
+
             go = new GameObject();
-            go.name = "drawing"+drawingCount;
+            go.name = "drawing" + drawingCount;
             go.tag = "Drawing";
- 
+
+
             currLine = go.AddComponent<GraphicsLineRenderer>();
-            //go.AddComponent<MeshCollider>();
-           
+
             go.AddComponent<MeshFilter>();
             go.AddComponent<MeshRenderer>();
             go.AddComponent<MeshCollider>().convex = true;
-            go.AddComponent<DrawingsAttach>();
+            if(SceneManager.GetActiveScene().name == "firstRoom")
+            {
+                go.AddComponent<DrawingsAttach>();
+            }
             go.AddComponent<Interactable>();
             Rigidbody rb = go.AddComponent<Rigidbody>();
             go.AddComponent<DrawingStruct>().startTime = Time.time;
-            rb.constraints = RigidbodyConstraints.FreezeAll; 
+            rb.constraints = RigidbodyConstraints.FreezeAll;
             go.AddComponent<Throwable>();
 
-            //go.AddComponent<MeshCollider>().isTrigger = true;
-            //go.AddComponent<VelocityEstimator>();
-            
             drawings.Add(go);
             numClicks = 0;
-            
+
         }
         else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
         {
@@ -94,10 +98,6 @@ public class DrawLineManager : MonoBehaviour
             lineIndex += 1;
             lineIndex = lineIndex % (lineSizes.Count);
             GraphicsLineRenderer.lineSize = lineSizes[lineIndex];
-            print(GraphicsLineRenderer.lineSize);
         }
-
-        // Printing the total number of meshes in the array
-        //Debug.LogError($"Length of the drawings array is = {drawings.Count}");
     }
 }
