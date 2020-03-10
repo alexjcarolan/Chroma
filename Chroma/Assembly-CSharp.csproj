@@ -201,9 +201,12 @@
      <Compile Include="Assets\Scripts\DrawLineManager.cs" />
      <Compile Include="Assets\Scripts\EraseDrawings.cs" />
      <Compile Include="Assets\Scripts\FireflyFlying.cs" />
+     <Compile Include="Assets\Scripts\FreezeCheck.cs" />
      <Compile Include="Assets\Scripts\GraphicsLineRenderer.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Mass_DLM.cs" />
+     <Compile Include="Assets\Scripts\Old_Drawline.cs" />
+     <Compile Include="Assets\Scripts\Old_graphics_line.cs" />
      <Compile Include="Assets\Scripts\ParentSwapper.cs" />
      <Compile Include="Assets\Scripts\ScreenCapture.cs" />
      <Compile Include="Assets\Scripts\ShowFlame.cs" />

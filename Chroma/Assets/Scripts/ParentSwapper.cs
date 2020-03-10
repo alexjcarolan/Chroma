@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ParentSwapper : MonoBehaviour
 {
@@ -8,21 +9,33 @@ public class ParentSwapper : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         List<GameObject> copy = DrawLineManager.drawings;
-        if (DrawLineManager.drawingCount > 0) { 
-        foreach (Transform t in transform)
+        if (DrawLineManager.drawingCount > 0)
         {
+            foreach (Transform t in transform)
+            {
                 if (t.gameObject.tag == "Drawing")
                 {
                     if (t.gameObject.GetComponent<DrawingStruct>().parent == null)
                     {
                         print("GRABBED DRAWING" + t.gameObject.name + " " + "parent init is : " + "null");
+                        //REMOVE BELOW FOR LEVEL 2
+                        if (SceneManager.GetActiveScene().name == "secondRoom")
+                        {
+                            t.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+
+                            if (t.gameObject.GetComponent<FreezeCheck>() == null)
+                            {
+                                t.gameObject.AddComponent<FreezeCheck>();
+                            }
+                        }
+                        // TILL HERE
                     }
                     else print("GRABBED DRAWING" + t.gameObject.name + " " + "parent init is : " + t.gameObject.GetComponent<DrawingStruct>().parent.name);
                     if (t.gameObject.GetComponent<DrawingStruct>().parent != null)
@@ -49,7 +62,7 @@ public class ParentSwapper : MonoBehaviour
                     }
                 }
             }
-                
+
         }
         //print($"Children count is = {children.Count}");
     }

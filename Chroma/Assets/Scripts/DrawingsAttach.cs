@@ -9,7 +9,7 @@ public class DrawingsAttach : MonoBehaviour
 {    // Start is called before the first frame update
     void Start()
     {
-           
+
     }
 
     void OnCollisionEnter(Collision collision)
@@ -21,8 +21,8 @@ public class DrawingsAttach : MonoBehaviour
             {
                 gameObject.transform.SetParent(collision.gameObject.transform);
                 gameObject.GetComponent<DrawingStruct>().parent = collision.gameObject;
-                collision.gameObject.GetComponent<DrawingStruct>().children.Add(gameObject);      
-            }           
+                collision.gameObject.GetComponent<DrawingStruct>().children.Add(gameObject);
+            }
             else
             {
                 collision.gameObject.transform.SetParent(gameObject.transform);
@@ -34,9 +34,7 @@ public class DrawingsAttach : MonoBehaviour
 
     void Update()
     {
-       
-   
+
+
     }
 }
-
-
