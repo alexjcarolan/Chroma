@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Mass_DLM : MonoBehaviour
 {
+    public float massVal;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,12 +18,11 @@ public class Mass_DLM : MonoBehaviour
 
     }
 
-    public static void setMass(GameObject drawing ){
-        drawing.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
-        print("Mass is " + drawing.GetComponent<GraphicsLineRenderer>().vertCount);
-        //drawing.GetComponent<Rigidbody>().mass = drawing.GetComponent<GraphicsLineRenderer>().vertCount/10000;
-        drawing.GetComponent<Rigidbody>().mass = 1;
-
+    public void setMass(){
+        GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+        GetComponent<Rigidbody>().mass = (GetComponent<GraphicsLineRenderer>().vertCount/100);
+        massVal = GetComponent<Rigidbody>().mass;
+        print("Mass is " + massVal);
     }
 
 

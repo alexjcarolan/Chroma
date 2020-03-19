@@ -20,13 +20,13 @@ public class DrawLineManager : MonoBehaviour
 
     // List to store all the drawn meshes
     public static List<GameObject> drawings = new List<GameObject>();
-    private List<float> lineSizes = new List<float> { 0.01f, 0.11f, 0.21f, 0.31f, 0.41f, 0.51f };
+    public List<float> lineSizes = new List<float> { 0.01f, 0.11f, 0.21f, 0.31f, 0.41f, 0.51f };
 
     private int numClicks = 0;
     private bool doubleClick;
     private float clickTimer;
     private float timeBetweenClicks = 1;
-    private int lineIndex = 0;
+    public int lineIndex = 0;
     public static Transform child = null;
     public static Transform parent = null;
 
@@ -83,7 +83,8 @@ public class DrawLineManager : MonoBehaviour
             print("TOUCH UP");
             if (SceneManager.GetActiveScene().name == "secondRoom")
             {
-                Mass_DLM.setMass(go);
+                go.AddComponent<Mass_DLM>();
+                go.GetComponent<Mass_DLM>().setMass();
             }
         }
         else if (device.GetTouch(SteamVR_Controller.ButtonMask.Trigger))
