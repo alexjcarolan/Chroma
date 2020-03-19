@@ -20,6 +20,7 @@ ExportedObj/
 *.user
 *.unityproj
 *.booproj
+*.fbx
 
 # ============ #
 # OS generated #
@@ -33,4 +34,3 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
-Chroma/Assets/Models/First room.fbx
