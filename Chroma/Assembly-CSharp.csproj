@@ -188,10 +188,12 @@
      <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleDeviceState.cs" />
      <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleEvent.cs" />
      <Compile Include="Assets\HTC.UnityPlugin\VRModule\VRModuleManager.cs" />
+     <Compile Include="Assets\Scripts\AddBouncy.cs" />
      <Compile Include="Assets\Scripts\AnimateBridge1.cs" />
      <Compile Include="Assets\Scripts\ArrowDeflections.cs" />
      <Compile Include="Assets\Scripts\ArrowShooter.cs" />
      <Compile Include="Assets\Scripts\BallInWell.cs" />
+     <Compile Include="Assets\Scripts\BrightenLight.cs" />
      <Compile Include="Assets\Scripts\CircleDetector.cs" />
      <Compile Include="Assets\Scripts\CubeSpawner.cs" />
      <Compile Include="Assets\Scripts\DeathCheckpoints.cs" />
@@ -199,6 +201,8 @@
      <Compile Include="Assets\Scripts\DrawingsAttach.cs" />
      <Compile Include="Assets\Scripts\DrawingStruct.cs" />
      <Compile Include="Assets\Scripts\DrawLineManager.cs" />
+     <Compile Include="Assets\Scripts\EnableArrowShooter.cs" />
+     <Compile Include="Assets\Scripts\EnableFire.cs" />
      <Compile Include="Assets\Scripts\EraseDrawings.cs" />
      <Compile Include="Assets\Scripts\FireflyFlying.cs" />
      <Compile Include="Assets\Scripts\FreezeCheck.cs" />

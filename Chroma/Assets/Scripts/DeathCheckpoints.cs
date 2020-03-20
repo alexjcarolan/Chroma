@@ -9,7 +9,7 @@ public class DeathCheckpoints : MonoBehaviour
 
     public GameObject bridge1;
     public GameObject bridge2;
-    public GameObject bridge3;
+    //public GameObject bridge3;
 
     //public GameObject player;
     Vector3 resetPosition;
@@ -41,26 +41,26 @@ public class DeathCheckpoints : MonoBehaviour
     {
         if (bridge1.GetComponent<Animator>().enabled == true)
         {
-            Vector3 desiredHeadPos = new Vector3(5.88f, 0f, -0.01f);
+            //Vector3 desiredHeadPos = new Vector3(-5.5f, 0f, 0f);
             SteamVR_Fade.View(Color.black, 0);
             SteamVR_Fade.View(Color.clear,8);
-            steamController.position = desiredHeadPos;
+            //steamController.position = desiredHeadPos;
             print("UPDATED POS");
         }
         if (bridge2.GetComponent<Animator>().enabled == true)
         {
-            Vector3 desiredHeadPos = new Vector3(17.95f, 0f, 0.37f);
+            Vector3 desiredHeadPos = new Vector3(-5.5f, 0.25f, -0.65f);
             SteamVR_Fade.Start(Color.black, 0, false);
             SteamVR_Fade.Start(Color.clear, 1, false);
             steamController.position = desiredHeadPos;
             print("UPDATED POS");
         }
-        if (bridge3.GetComponent<Animator>().enabled == true)
-        {
-            //Vector3 desiredHeadPos = new Vector3(26.59f, 0f, -0.7304688f);
-            //steamController.position = desiredHeadPos;
-            print("UPDATED POS");
-        }
+        //if (bridge3.GetComponent<Animator>().enabled == true)
+        //{
+        //    //Vector3 desiredHeadPos = new Vector3(26.59f, 0f, -0.7304688f);
+        //    //steamController.position = desiredHeadPos;
+        //    print("UPDATED POS");
+        //}
         print("fade out called");
         SteamVR_Fade.Start(Color.black, 0, false);
         SteamVR_Fade.Start(Color.clear, 2, false);

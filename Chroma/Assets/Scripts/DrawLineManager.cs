@@ -64,7 +64,7 @@ public class DrawLineManager : MonoBehaviour
             go.AddComponent<MeshFilter>();
             go.AddComponent<MeshRenderer>();
             go.AddComponent<MeshCollider>().convex = true;
-            if(SceneManager.GetActiveScene().name == "firstRoom")
+            if(SceneManager.GetActiveScene().name == "First room")
             {
                 go.AddComponent<DrawingsAttach>();
             }

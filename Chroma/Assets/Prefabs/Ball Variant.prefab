@@ -23,7 +23,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1050650897339041055}
-  m_Material: {fileID: 13400000, guid: 6f1f2396e7eed5a49a0e3c6447562fa9, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -66,6 +66,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &114720258522285952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050650897339041055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bc4f43ba96c7944bbf838a3ff08c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mat: {fileID: 13400000, guid: 6f1f2396e7eed5a49a0e3c6447562fa9, type: 2}
 --- !u!114 &456771553204222883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,7 +165,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
       propertyPath: m_Name
-      value: Ball
+      value: Ball Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -197,6 +210,18 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19f44764abc99974eba5f3f38a54750e, type: 3}

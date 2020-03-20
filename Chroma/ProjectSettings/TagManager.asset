@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Drawing
   - LeftController
+  - Stage2Stuff
+  - Stage3Stuff
   layers:
   - Default
   - TransparentFX
