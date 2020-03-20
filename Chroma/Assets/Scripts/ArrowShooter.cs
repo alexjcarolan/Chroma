@@ -9,6 +9,8 @@ public class ArrowShooter : MonoBehaviour
     public float launchAngle;
     public GameObject arrow;
     public GameObject bridge2;
+    public GameObject totemFire;
+    public GameObject totemPole;
 
     public static int deflections = 0;
 
@@ -20,8 +22,7 @@ public class ArrowShooter : MonoBehaviour
 
     void Update()
     {
-        //print($"Deflections = {deflections}");
-
+        
     }
 
     // Function to shoot the arrows
@@ -42,6 +43,8 @@ public class ArrowShooter : MonoBehaviour
             if(deflections >= 3)
             {
                     bridge2.GetComponent<Animator>().enabled = true;
+                totemFire.SetActive(true);
+                totemPole.GetComponent<Animator>().enabled = true;
 
                 break;
             }

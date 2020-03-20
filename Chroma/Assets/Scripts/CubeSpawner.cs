@@ -9,6 +9,7 @@ public class CubeSpawner : MonoBehaviour
     public float launchAngle;
     public GameObject ball;
     public GameObject bridge;
+    public float destroytime;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +29,7 @@ public class CubeSpawner : MonoBehaviour
             GameObject spawned = Instantiate(ball, transform.position, q) as GameObject;
             ball.name = "Ball";
             spawned.GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 1) * velocity);
-            Destroy(spawned, 8f);
+            Destroy(spawned, destroytime);
             //arrow.GetComponent<Rigidbody>().velocity = arrowVelocity;
             
             if(bridge.GetComponent<Animator>().enabled == true)
