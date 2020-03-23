@@ -10,7 +10,8 @@ public class CubeSpawner : MonoBehaviour
     public GameObject ball;
     public GameObject bridge;
     public float destroytime;
-
+    public static bool golfSpawn = true;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +21,10 @@ public class CubeSpawner : MonoBehaviour
     // Function to shoot the arrows
     private IEnumerator Shoot()
     {
+        print($"golf spawn = {golfSpawn}");
         while (true)
         {
+            if (!golfSpawn) yield return null;
             yield return new WaitForSeconds(timeSpan);
             Vector3 launchDirection = GetLaunchDirection();
             Quaternion q = Quaternion.Euler(launchDirection);

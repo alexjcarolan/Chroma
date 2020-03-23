@@ -56,7 +56,7 @@ public class Winning : MonoBehaviour
     private IEnumerator NewScene()
     {
         print("Inside func");
-        async = SceneManager.LoadSceneAsync("MainRoom", LoadSceneMode.Single);
+        async = SceneManager.LoadSceneAsync("centralRoom", LoadSceneMode.Single);
         async.allowSceneActivation = false;
         while (!async.isDone)
         {
