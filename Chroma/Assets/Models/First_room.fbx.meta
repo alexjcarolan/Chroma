@@ -313,6 +313,8 @@ ModelImporter:
     100614: wall_right_1
     100616: wall_right_2
     100618: walls
+    100620: tee_left
+    100622: tee_right
     400000: base_bot_1
     400002: base_bot_2
     400004: base_bot_3
@@ -623,6 +625,8 @@ ModelImporter:
     400614: wall_right_1
     400616: wall_right_2
     400618: walls
+    400620: tee_left
+    400622: tee_right
     2100000: lambert1
     2300000: base_bot_1
     2300002: base_bot_2
@@ -864,6 +868,8 @@ ModelImporter:
     2300474: wall_left_2
     2300476: wall_right_1
     2300478: wall_right_2
+    2300480: tee_left
+    2300482: tee_right
     3300000: base_bot_1
     3300002: base_bot_2
     3300004: base_bot_3
@@ -1104,6 +1110,8 @@ ModelImporter:
     3300474: wall_left_2
     3300476: wall_right_1
     3300478: wall_right_2
+    3300480: tee_left
+    3300482: tee_right
     4300000: wall_1
     4300002: wall_2
     4300004: wall_front_1
@@ -1344,6 +1352,8 @@ ModelImporter:
     4300474: left_arm
     4300476: right_arm
     4300478: token
+    4300480: tee_left
+    4300482: tee_right
     9500000: //RootNode
     2186277476908879412: ImportLogs
   externalObjects: {}

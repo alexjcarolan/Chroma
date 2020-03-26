@@ -208,6 +208,7 @@
      <Compile Include="Assets\Scripts\FreezeCheck.cs" />
      <Compile Include="Assets\Scripts\GraphicsLineRenderer.cs" />
      <Compile Include="Assets\Scripts\leftPlate.cs" />
+     <Compile Include="Assets\Scripts\LoadLevel1.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\Mass_DLM.cs" />
      <Compile Include="Assets\Scripts\Old_Drawline.cs" />
