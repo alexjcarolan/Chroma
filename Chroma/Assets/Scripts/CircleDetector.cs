@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
-
-
+using Valve.VR.InteractionSystem;
 
 public class CircleDetector : MonoBehaviour
 {
     public static bool flag = false;
+    public GameObject bridge;
+    public GameObject teleportBridge;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +22,9 @@ public class CircleDetector : MonoBehaviour
     {
         if (flag == true)
         {
+            bridge.GetComponent<Animator>().enabled = true;
             GetComponent<CircleDetector>().enabled = false;
+            teleportBridge.GetComponent<TeleportArea>().locked = false;
         }
         
     }
@@ -36,7 +40,6 @@ public class CircleDetector : MonoBehaviour
             {
                 print("Detected");
                 flag = true; 
-               
             }
             
         }

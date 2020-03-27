@@ -11,11 +11,11 @@ public class leftPlate : MonoBehaviour
         
     }
     
-    void OnCollisionEnter(Collider collider)
+    void OnCollisionEnter(Collision collider)
     {
-        if (collider.tag == "Drawing")
+        if (collider.collider.tag == "Drawing")
         {
-            mass += collider.GetComponent<Rigidbody>().mass;
+            mass += collider.collider.GetComponent<Rigidbody>().mass;
         }
     }
     
