@@ -9,27 +9,105 @@ ModelImporter:
     100006: body
     100008: body_casing
     100010: body_core
-    100012: //RootNode
+    100012: brush
+    100014: finger_index_0_l
+    100016: finger_index_1_l
+    100018: finger_index_2_l
+    100020: finger_index_l_aux
+    100022: finger_index_l_end
+    100024: finger_index_meta_l
+    100026: finger_middle_0_l
+    100028: finger_middle_1_l
+    100030: finger_middle_2_l
+    100032: finger_middle_l_aux
+    100034: finger_middle_l_end
+    100036: finger_middle_meta_l
+    100038: finger_pinky_0_l
+    100040: finger_pinky_1_l
+    100042: finger_pinky_2_l
+    100044: finger_pinky_l_aux
+    100046: finger_pinky_l_end
+    100048: finger_pinky_meta_l
+    100050: finger_ring_0_l
+    100052: finger_ring_1_l
+    100054: finger_ring_2_l
+    100056: finger_ring_l_aux
+    100058: finger_ring_l_end
+    100060: finger_ring_meta_l
+    100062: finger_thumb_0_l
+    100064: finger_thumb_1_l
+    100066: finger_thumb_2_l
+    100068: finger_thumb_l_aux
+    100070: finger_thumb_l_end
+    100072: glove
+    100074: hand
+    100076: //RootNode
+    100078: Root
+    100080: size
+    100082: wrist_l
     400000: ball
     400002: ball_casing
     400004: ball_core
     400006: body
     400008: body_casing
     400010: body_core
-    400012: //RootNode
+    400012: brush
+    400014: finger_index_0_l
+    400016: finger_index_1_l
+    400018: finger_index_2_l
+    400020: finger_index_l_aux
+    400022: finger_index_l_end
+    400024: finger_index_meta_l
+    400026: finger_middle_0_l
+    400028: finger_middle_1_l
+    400030: finger_middle_2_l
+    400032: finger_middle_l_aux
+    400034: finger_middle_l_end
+    400036: finger_middle_meta_l
+    400038: finger_pinky_0_l
+    400040: finger_pinky_1_l
+    400042: finger_pinky_2_l
+    400044: finger_pinky_l_aux
+    400046: finger_pinky_l_end
+    400048: finger_pinky_meta_l
+    400050: finger_ring_0_l
+    400052: finger_ring_1_l
+    400054: finger_ring_2_l
+    400056: finger_ring_l_aux
+    400058: finger_ring_l_end
+    400060: finger_ring_meta_l
+    400062: finger_thumb_0_l
+    400064: finger_thumb_1_l
+    400066: finger_thumb_2_l
+    400068: finger_thumb_l_aux
+    400070: finger_thumb_l_end
+    400072: glove
+    400074: hand
+    400076: //RootNode
+    400078: Root
+    400080: size
+    400082: wrist_l
     2100000: lambert1
+    2100002: glove_texture1
     2300000: ball_casing
     2300002: ball_core
     2300004: body_casing
     2300006: body_core
+    2300008: glove
+    2300010: size
     3300000: ball_casing
     3300002: ball_core
     3300004: body_casing
     3300006: body_core
+    3300008: glove
+    3300010: size
     4300000: ball_core
     4300002: ball_casing
     4300004: body_core
     4300006: body_casing
+    4300008: size
+    4300010: glove
+    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -82,8 +160,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 0
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -92,7 +170,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
@@ -110,7 +188,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
