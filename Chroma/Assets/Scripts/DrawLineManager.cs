@@ -15,6 +15,7 @@ public class DrawLineManager : MonoBehaviour
     public SteamVR_TrackedObject trackedObj;
     //private LineRenderer currLine;
     private GraphicsLineRenderer currLine;
+    public GameObject sizeObject;
 
     public static int drawingCount;
 
@@ -98,6 +99,12 @@ public class DrawLineManager : MonoBehaviour
         {
             lineIndex += 1;
             lineIndex = lineIndex % (lineSizes.Count);
+            sizeObject.transform.localScale += new Vector3(2.0f, 0f, 2.0f);
+            if (sizeObject.transform.localScale.x > 12.0f)
+            {
+                sizeObject.transform.localScale = new Vector3(2.0f, 0.5000005f, 2.0f);
+            }
+            
             GraphicsLineRenderer.lineSize = lineSizes[lineIndex];
         }
     }
