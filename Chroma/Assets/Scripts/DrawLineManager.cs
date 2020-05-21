@@ -55,6 +55,13 @@ public class DrawLineManager : MonoBehaviour
         if (device.GetTouchDown(SteamVR_Controller.ButtonMask.Trigger))
         {
 
+            bool flag = FindObjectOfType<AudioManager>().drawing_playing;
+            if (!flag)
+            {
+              FindObjectOfType<AudioManager>().Play("draw_sound");
+              FindObjectOfType<AudioManager>().drawing_playing = true;
+            }
+
             go = new GameObject();
             go.name = "drawing" + drawingCount;
             go.tag = "Drawing";
@@ -81,6 +88,12 @@ public class DrawLineManager : MonoBehaviour
         }
         else if (device.GetTouchUp(SteamVR_Controller.ButtonMask.Trigger))
         {
+            bool flag = FindObjectOfType<AudioManager>().drawing_playing;
+            if (flag)
+            {
+              FindObjectOfType<AudioManager>().Stop("draw_sound");
+              FindObjectOfType<AudioManager>().drawing_playing = false;
+            }
             print("TOUCH UP");
             if (SceneManager.GetActiveScene().name == "secondRoom")
             {

@@ -33,12 +33,17 @@ public class DeathCheckpoints : MonoBehaviour
             //source.PlayOneShot(collision);
             FadeOut();
             ArrowShooter.deflections = 0;
+            FindObjectOfType<AudioManager>().flame1 = false;
+            FindObjectOfType<AudioManager>().flame2 = false;
+            FindObjectOfType<AudioManager>().flame3 = false;
+            
             //spawnpool.counter = 0;
         }
     }
 
     void FadeOut()
     {
+        FindObjectOfType<AudioManager>().Play("death_sound");
         if (bridge1.GetComponent<Animator>().enabled == true)
         {
             //Vector3 desiredHeadPos = new Vector3(-5.5f, 0f, 0f);

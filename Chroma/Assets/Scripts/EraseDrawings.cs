@@ -47,6 +47,7 @@ public class EraseDrawings : MonoBehaviour
             DrawLineManager.drawings.Remove(par);
             print("PARNAME" + par.name);
             Destroy(par);
+            FindObjectOfType<AudioManager>().Play("delete_drawing");
 
 
 

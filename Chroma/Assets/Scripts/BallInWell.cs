@@ -31,6 +31,7 @@ public class BallInWell : MonoBehaviour
     {
         //    // open the bridge
         //print("BALL IN WELL");
+        FindObjectOfType<AudioManager>().Play("ball_in_well");
         bridge.GetComponent<Animator>().enabled = true;
         GameObject.Find("GolfBallSpawner").GetComponent<CubeSpawner>().enabled = false;
     }
