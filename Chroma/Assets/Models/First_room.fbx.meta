@@ -1,0 +1,1444 @@
+fileFormatVersion: 2
+guid: cd6423603e46e9748bab47f7b19de2ce
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: base_bot_1
+    100002: base_bot_2
+    100004: base_bot_3
+    100006: base_bot_4
+    100008: base_bot_5
+    100010: base_bot_6
+    100012: base_bot_7
+    100014: base_bot_8
+    100016: base_top_1
+    100018: base_top_2
+    100020: base_top_3
+    100022: base_top_4
+    100024: base_top_5
+    100026: base_top_6
+    100028: base_top_7
+    100030: base_top_8
+    100032: body
+    100034: body 1
+    100036: body_1
+    100038: body_2
+    100040: bottom_animal
+    100042: bottom_beak
+    100044: bridge_1
+    100046: bridge_2
+    100048: bridges
+    100050: button
+    100052: casings_1
+    100054: casings_2
+    100056: chains_1
+    100058: chains_2
+    100060: challices
+    100062: challices_1
+    100064: challices_2
+    100066: challices_3
+    100068: challices_4
+    100070: challices_5
+    100072: challices_6
+    100074: challices_7
+    100076: collars_bot_1
+    100078: collars_bot_2
+    100080: collars_bot_3
+    100082: collars_bot_4
+    100084: collars_bot_5
+    100086: collars_bot_6
+    100088: collars_bot_7
+    100090: collars_bot_8
+    100092: collars_top_1
+    100094: collars_top_2
+    100096: collars_top_3
+    100098: collars_top_4
+    100100: collars_top_5
+    100102: collars_top_6
+    100104: collars_top_7
+    100106: collars_top_8
+    100108: column_1
+    100110: column_1 1
+    100112: column_2
+    100114: column_2 1
+    100116: column_3
+    100118: column_3 1
+    100120: column_4
+    100122: column_4 1
+    100124: column_5
+    100126: column_5 1
+    100128: column_6
+    100130: column_6 1
+    100132: column_7
+    100134: column_7 1
+    100136: column_8
+    100138: column_8 1
+    100140: columns
+    100142: door
+    100144: door_left
+    100146: door_right
+    100148: dynamics_1
+    100150: dynamics_2
+    100152: earth_challice_1
+    100154: earth_challice_2
+    100156: earth_challice_3
+    100158: earth_challice_4
+    100160: earth_challice_5
+    100162: earth_challice_6
+    100164: earth_challice_7
+    100166: earth_symbols_1
+    100168: earth_symbols_2
+    100170: earth_symbols_3
+    100172: earth_symbols_4
+    100174: earth_symbols_5
+    100176: earth_symbols_6
+    100178: earth_symbols_7
+    100180: eye_patch
+    100182: face
+    100184: face 1
+    100186: //RootNode
+    100188: flat_1
+    100190: flat_2
+    100192: floor_0
+    100194: floor_1
+    100196: floor_1 1
+    100198: floor_2
+    100200: floor_2 1
+    100202: floor_3
+    100204: floor_3 1
+    100206: floors
+    100208: frame_left
+    100210: frame_right
+    100212: hair_central
+    100214: hair_left
+    100216: hair_right
+    100218: handle_left
+    100220: handle_right
+    100222: head
+    100224: head 1
+    100226: hinge_1
+    100228: hinge_2
+    100230: hole
+    100232: hooks_1
+    100234: hooks_2
+    100236: left_arm
+    100238: left_eye
+    100240: left_eye 1
+    100242: left_eyebrow
+    100244: left_leg
+    100246: left_leg 1
+    100248: left_outline
+    100250: left_pupil
+    100252: left_pupil 1
+    100254: left_wing
+    100256: limbs
+    100258: limbs 1
+    100260: moon_challice_1
+    100262: moon_challice_2
+    100264: moon_challice_3
+    100266: moon_challice_4
+    100268: moon_challice_5
+    100270: moon_challice_6
+    100272: moon_challice_7
+    100274: moon_symbols_1
+    100276: moon_symbols_2
+    100278: moon_symbols_3
+    100280: moon_symbols_4
+    100282: moon_symbols_5
+    100284: moon_symbols_6
+    100286: moon_symbols_7
+    100288: mouth
+    100290: nose
+    100292: puzzles
+    100294: right_arm
+    100296: right_eye
+    100298: right_eye 1
+    100300: right_eyebrow
+    100302: right_leg
+    100304: right_leg 1
+    100306: right_outline
+    100308: right_pupil
+    100310: right_pupil 1
+    100312: right_wing
+    100314: rim
+    100316: rings_1
+    100318: rings_2
+    100320: rivets_1
+    100322: rivets_2
+    100324: short_wall_1
+    100326: short_wall_2
+    100328: slab
+    100330: slab 1
+    100332: slab_2
+    100334: slab_left_1
+    100336: slab_right_1
+    100338: spheres_left
+    100340: spheres_right
+    100342: spots
+    100344: star_symbols_1
+    100346: star_symbols_10
+    100348: star_symbols_11
+    100350: star_symbols_12
+    100352: star_symbols_13
+    100354: star_symbols_14
+    100356: star_symbols_15
+    100358: star_symbols_16
+    100360: star_symbols_17
+    100362: star_symbols_18
+    100364: star_symbols_19
+    100366: star_symbols_2
+    100368: star_symbols_20
+    100370: star_symbols_21
+    100372: star_symbols_22
+    100374: star_symbols_23
+    100376: star_symbols_24
+    100378: star_symbols_25
+    100380: star_symbols_3
+    100382: star_symbols_4
+    100384: star_symbols_5
+    100386: star_symbols_6
+    100388: star_symbols_7
+    100390: star_symbols_8
+    100392: star_symbols_9
+    100394: statics_1
+    100396: statics_2
+    100398: sun_challice_1
+    100400: sun_challice_2
+    100402: sun_challice_3
+    100404: sun_challice_4
+    100406: sun_challice_5
+    100408: sun_challice_6
+    100410: sun_challice_7
+    100412: sun_symbols_1
+    100414: sun_symbols_2
+    100416: sun_symbols_3
+    100418: sun_symbols_4
+    100420: sun_symbols_5
+    100422: sun_symbols_6
+    100424: sun_symbols_7
+    100426: teeth
+    100428: teleport_1
+    100430: teleport_2
+    100432: teleport_3
+    100434: token
+    100436: top_animal
+    100438: top_beak
+    100440: torch_1
+    100442: torch_1 1
+    100444: torch_10
+    100446: torch_10 1
+    100448: torch_11
+    100450: torch_11 1
+    100452: torch_12
+    100454: torch_12 1
+    100456: torch_13
+    100458: torch_13 1
+    100460: torch_14
+    100462: torch_14 1
+    100464: torch_15
+    100466: torch_15 1
+    100468: torch_16
+    100470: torch_16 1
+    100472: torch_17
+    100474: torch_17 1
+    100476: torch_18
+    100478: torch_18 1
+    100480: torch_19
+    100482: torch_19 1
+    100484: torch_2
+    100486: torch_2 1
+    100488: torch_20
+    100490: torch_20 1
+    100492: torch_21
+    100494: torch_21 1
+    100496: torch_22
+    100498: torch_22 1
+    100500: torch_23
+    100502: torch_23 1
+    100504: torch_24
+    100506: torch_24 1
+    100508: torch_25
+    100510: torch_25 1
+    100512: torch_3
+    100514: torch_3 1
+    100516: torch_4
+    100518: torch_4 1
+    100520: torch_5
+    100522: torch_5 1
+    100524: torch_6
+    100526: torch_6 1
+    100528: torch_7
+    100530: torch_7 1
+    100532: torch_8
+    100534: torch_8 1
+    100536: torch_9
+    100538: torch_9 1
+    100540: torches
+    100542: totem
+    100544: trim_1
+    100546: trim_2
+    100548: trim_left
+    100550: trim_right
+    100552: vine_1
+    100554: vine_10
+    100556: vine_11
+    100558: vine_12
+    100560: vine_13
+    100562: vine_14
+    100564: vine_15
+    100566: vine_16
+    100568: vine_17
+    100570: vine_18
+    100572: vine_19
+    100574: vine_2
+    100576: vine_20
+    100578: vine_21
+    100580: vine_22
+    100582: vine_3
+    100584: vine_4
+    100586: vine_5
+    100588: vine_6
+    100590: vine_7
+    100592: vine_8
+    100594: vine_9
+    100596: vines
+    100598: wall_1
+    100600: wall_2
+    100602: wall_back_1
+    100604: wall_back_2
+    100606: wall_front_1
+    100608: wall_front_2
+    100610: wall_left_1
+    100612: wall_left_2
+    100614: wall_right_1
+    100616: wall_right_2
+    100618: walls
+    100620: tee_left
+    100622: tee_right
+    400000: base_bot_1
+    400002: base_bot_2
+    400004: base_bot_3
+    400006: base_bot_4
+    400008: base_bot_5
+    400010: base_bot_6
+    400012: base_bot_7
+    400014: base_bot_8
+    400016: base_top_1
+    400018: base_top_2
+    400020: base_top_3
+    400022: base_top_4
+    400024: base_top_5
+    400026: base_top_6
+    400028: base_top_7
+    400030: base_top_8
+    400032: body
+    400034: body 1
+    400036: body_1
+    400038: body_2
+    400040: bottom_animal
+    400042: bottom_beak
+    400044: bridge_1
+    400046: bridge_2
+    400048: bridges
+    400050: button
+    400052: casings_1
+    400054: casings_2
+    400056: chains_1
+    400058: chains_2
+    400060: challices
+    400062: challices_1
+    400064: challices_2
+    400066: challices_3
+    400068: challices_4
+    400070: challices_5
+    400072: challices_6
+    400074: challices_7
+    400076: collars_bot_1
+    400078: collars_bot_2
+    400080: collars_bot_3
+    400082: collars_bot_4
+    400084: collars_bot_5
+    400086: collars_bot_6
+    400088: collars_bot_7
+    400090: collars_bot_8
+    400092: collars_top_1
+    400094: collars_top_2
+    400096: collars_top_3
+    400098: collars_top_4
+    400100: collars_top_5
+    400102: collars_top_6
+    400104: collars_top_7
+    400106: collars_top_8
+    400108: column_1
+    400110: column_1 1
+    400112: column_2
+    400114: column_2 1
+    400116: column_3
+    400118: column_3 1
+    400120: column_4
+    400122: column_4 1
+    400124: column_5
+    400126: column_5 1
+    400128: column_6
+    400130: column_6 1
+    400132: column_7
+    400134: column_7 1
+    400136: column_8
+    400138: column_8 1
+    400140: columns
+    400142: door
+    400144: door_left
+    400146: door_right
+    400148: dynamics_1
+    400150: dynamics_2
+    400152: earth_challice_1
+    400154: earth_challice_2
+    400156: earth_challice_3
+    400158: earth_challice_4
+    400160: earth_challice_5
+    400162: earth_challice_6
+    400164: earth_challice_7
+    400166: earth_symbols_1
+    400168: earth_symbols_2
+    400170: earth_symbols_3
+    400172: earth_symbols_4
+    400174: earth_symbols_5
+    400176: earth_symbols_6
+    400178: earth_symbols_7
+    400180: eye_patch
+    400182: face
+    400184: face 1
+    400186: //RootNode
+    400188: flat_1
+    400190: flat_2
+    400192: floor_0
+    400194: floor_1
+    400196: floor_1 1
+    400198: floor_2
+    400200: floor_2 1
+    400202: floor_3
+    400204: floor_3 1
+    400206: floors
+    400208: frame_left
+    400210: frame_right
+    400212: hair_central
+    400214: hair_left
+    400216: hair_right
+    400218: handle_left
+    400220: handle_right
+    400222: head
+    400224: head 1
+    400226: hinge_1
+    400228: hinge_2
+    400230: hole
+    400232: hooks_1
+    400234: hooks_2
+    400236: left_arm
+    400238: left_eye
+    400240: left_eye 1
+    400242: left_eyebrow
+    400244: left_leg
+    400246: left_leg 1
+    400248: left_outline
+    400250: left_pupil
+    400252: left_pupil 1
+    400254: left_wing
+    400256: limbs
+    400258: limbs 1
+    400260: moon_challice_1
+    400262: moon_challice_2
+    400264: moon_challice_3
+    400266: moon_challice_4
+    400268: moon_challice_5
+    400270: moon_challice_6
+    400272: moon_challice_7
+    400274: moon_symbols_1
+    400276: moon_symbols_2
+    400278: moon_symbols_3
+    400280: moon_symbols_4
+    400282: moon_symbols_5
+    400284: moon_symbols_6
+    400286: moon_symbols_7
+    400288: mouth
+    400290: nose
+    400292: puzzles
+    400294: right_arm
+    400296: right_eye
+    400298: right_eye 1
+    400300: right_eyebrow
+    400302: right_leg
+    400304: right_leg 1
+    400306: right_outline
+    400308: right_pupil
+    400310: right_pupil 1
+    400312: right_wing
+    400314: rim
+    400316: rings_1
+    400318: rings_2
+    400320: rivets_1
+    400322: rivets_2
+    400324: short_wall_1
+    400326: short_wall_2
+    400328: slab
+    400330: slab 1
+    400332: slab_2
+    400334: slab_left_1
+    400336: slab_right_1
+    400338: spheres_left
+    400340: spheres_right
+    400342: spots
+    400344: star_symbols_1
+    400346: star_symbols_10
+    400348: star_symbols_11
+    400350: star_symbols_12
+    400352: star_symbols_13
+    400354: star_symbols_14
+    400356: star_symbols_15
+    400358: star_symbols_16
+    400360: star_symbols_17
+    400362: star_symbols_18
+    400364: star_symbols_19
+    400366: star_symbols_2
+    400368: star_symbols_20
+    400370: star_symbols_21
+    400372: star_symbols_22
+    400374: star_symbols_23
+    400376: star_symbols_24
+    400378: star_symbols_25
+    400380: star_symbols_3
+    400382: star_symbols_4
+    400384: star_symbols_5
+    400386: star_symbols_6
+    400388: star_symbols_7
+    400390: star_symbols_8
+    400392: star_symbols_9
+    400394: statics_1
+    400396: statics_2
+    400398: sun_challice_1
+    400400: sun_challice_2
+    400402: sun_challice_3
+    400404: sun_challice_4
+    400406: sun_challice_5
+    400408: sun_challice_6
+    400410: sun_challice_7
+    400412: sun_symbols_1
+    400414: sun_symbols_2
+    400416: sun_symbols_3
+    400418: sun_symbols_4
+    400420: sun_symbols_5
+    400422: sun_symbols_6
+    400424: sun_symbols_7
+    400426: teeth
+    400428: teleport_1
+    400430: teleport_2
+    400432: teleport_3
+    400434: token
+    400436: top_animal
+    400438: top_beak
+    400440: torch_1
+    400442: torch_1 1
+    400444: torch_10
+    400446: torch_10 1
+    400448: torch_11
+    400450: torch_11 1
+    400452: torch_12
+    400454: torch_12 1
+    400456: torch_13
+    400458: torch_13 1
+    400460: torch_14
+    400462: torch_14 1
+    400464: torch_15
+    400466: torch_15 1
+    400468: torch_16
+    400470: torch_16 1
+    400472: torch_17
+    400474: torch_17 1
+    400476: torch_18
+    400478: torch_18 1
+    400480: torch_19
+    400482: torch_19 1
+    400484: torch_2
+    400486: torch_2 1
+    400488: torch_20
+    400490: torch_20 1
+    400492: torch_21
+    400494: torch_21 1
+    400496: torch_22
+    400498: torch_22 1
+    400500: torch_23
+    400502: torch_23 1
+    400504: torch_24
+    400506: torch_24 1
+    400508: torch_25
+    400510: torch_25 1
+    400512: torch_3
+    400514: torch_3 1
+    400516: torch_4
+    400518: torch_4 1
+    400520: torch_5
+    400522: torch_5 1
+    400524: torch_6
+    400526: torch_6 1
+    400528: torch_7
+    400530: torch_7 1
+    400532: torch_8
+    400534: torch_8 1
+    400536: torch_9
+    400538: torch_9 1
+    400540: torches
+    400542: totem
+    400544: trim_1
+    400546: trim_2
+    400548: trim_left
+    400550: trim_right
+    400552: vine_1
+    400554: vine_10
+    400556: vine_11
+    400558: vine_12
+    400560: vine_13
+    400562: vine_14
+    400564: vine_15
+    400566: vine_16
+    400568: vine_17
+    400570: vine_18
+    400572: vine_19
+    400574: vine_2
+    400576: vine_20
+    400578: vine_21
+    400580: vine_22
+    400582: vine_3
+    400584: vine_4
+    400586: vine_5
+    400588: vine_6
+    400590: vine_7
+    400592: vine_8
+    400594: vine_9
+    400596: vines
+    400598: wall_1
+    400600: wall_2
+    400602: wall_back_1
+    400604: wall_back_2
+    400606: wall_front_1
+    400608: wall_front_2
+    400610: wall_left_1
+    400612: wall_left_2
+    400614: wall_right_1
+    400616: wall_right_2
+    400618: walls
+    400620: tee_left
+    400622: tee_right
+    2100000: lambert1
+    2300000: base_bot_1
+    2300002: base_bot_2
+    2300004: base_bot_3
+    2300006: base_bot_4
+    2300008: base_bot_5
+    2300010: base_bot_6
+    2300012: base_bot_7
+    2300014: base_bot_8
+    2300016: base_top_1
+    2300018: base_top_2
+    2300020: base_top_3
+    2300022: base_top_4
+    2300024: base_top_5
+    2300026: base_top_6
+    2300028: base_top_7
+    2300030: base_top_8
+    2300032: body
+    2300034: body 1
+    2300036: body_1
+    2300038: body_2
+    2300040: bottom_beak
+    2300042: button
+    2300044: casings_1
+    2300046: casings_2
+    2300048: chains_1
+    2300050: chains_2
+    2300052: collars_bot_1
+    2300054: collars_bot_2
+    2300056: collars_bot_3
+    2300058: collars_bot_4
+    2300060: collars_bot_5
+    2300062: collars_bot_6
+    2300064: collars_bot_7
+    2300066: collars_bot_8
+    2300068: collars_top_1
+    2300070: collars_top_2
+    2300072: collars_top_3
+    2300074: collars_top_4
+    2300076: collars_top_5
+    2300078: collars_top_6
+    2300080: collars_top_7
+    2300082: collars_top_8
+    2300084: column_1 1
+    2300086: column_2 1
+    2300088: column_3 1
+    2300090: column_4 1
+    2300092: column_5 1
+    2300094: column_6 1
+    2300096: column_7 1
+    2300098: column_8 1
+    2300100: earth_challice_1
+    2300102: earth_challice_2
+    2300104: earth_challice_3
+    2300106: earth_challice_4
+    2300108: earth_challice_5
+    2300110: earth_challice_6
+    2300112: earth_challice_7
+    2300114: earth_symbols_1
+    2300116: earth_symbols_2
+    2300118: earth_symbols_3
+    2300120: earth_symbols_4
+    2300122: earth_symbols_5
+    2300124: earth_symbols_6
+    2300126: earth_symbols_7
+    2300128: eye_patch
+    2300130: flat_1
+    2300132: flat_2
+    2300134: floor_0
+    2300136: floor_1 1
+    2300138: floor_2 1
+    2300140: floor_3 1
+    2300142: frame_left
+    2300144: frame_right
+    2300146: hair_central
+    2300148: hair_left
+    2300150: hair_right
+    2300152: handle_left
+    2300154: handle_right
+    2300156: head
+    2300158: head 1
+    2300160: hinge_1
+    2300162: hinge_2
+    2300164: hole
+    2300166: hooks_1
+    2300168: hooks_2
+    2300170: left_arm
+    2300172: left_eye
+    2300174: left_eye 1
+    2300176: left_eyebrow
+    2300178: left_leg
+    2300180: left_leg 1
+    2300182: left_outline
+    2300184: left_pupil
+    2300186: left_pupil 1
+    2300188: left_wing
+    2300190: moon_challice_1
+    2300192: moon_challice_2
+    2300194: moon_challice_3
+    2300196: moon_challice_4
+    2300198: moon_challice_5
+    2300200: moon_challice_6
+    2300202: moon_challice_7
+    2300204: moon_symbols_1
+    2300206: moon_symbols_2
+    2300208: moon_symbols_3
+    2300210: moon_symbols_4
+    2300212: moon_symbols_5
+    2300214: moon_symbols_6
+    2300216: moon_symbols_7
+    2300218: mouth
+    2300220: nose
+    2300222: right_arm
+    2300224: right_eye
+    2300226: right_eye 1
+    2300228: right_eyebrow
+    2300230: right_leg
+    2300232: right_leg 1
+    2300234: right_outline
+    2300236: right_pupil
+    2300238: right_pupil 1
+    2300240: right_wing
+    2300242: rim
+    2300244: rings_1
+    2300246: rings_2
+    2300248: rivets_1
+    2300250: rivets_2
+    2300252: slab
+    2300254: slab 1
+    2300256: slab_2
+    2300258: slab_left_1
+    2300260: slab_right_1
+    2300262: spheres_left
+    2300264: spheres_right
+    2300266: spots
+    2300268: star_symbols_1
+    2300270: star_symbols_10
+    2300272: star_symbols_11
+    2300274: star_symbols_12
+    2300276: star_symbols_13
+    2300278: star_symbols_14
+    2300280: star_symbols_15
+    2300282: star_symbols_16
+    2300284: star_symbols_17
+    2300286: star_symbols_18
+    2300288: star_symbols_19
+    2300290: star_symbols_2
+    2300292: star_symbols_20
+    2300294: star_symbols_21
+    2300296: star_symbols_22
+    2300298: star_symbols_23
+    2300300: star_symbols_24
+    2300302: star_symbols_25
+    2300304: star_symbols_3
+    2300306: star_symbols_4
+    2300308: star_symbols_5
+    2300310: star_symbols_6
+    2300312: star_symbols_7
+    2300314: star_symbols_8
+    2300316: star_symbols_9
+    2300318: sun_challice_1
+    2300320: sun_challice_2
+    2300322: sun_challice_3
+    2300324: sun_challice_4
+    2300326: sun_challice_5
+    2300328: sun_challice_6
+    2300330: sun_challice_7
+    2300332: sun_symbols_1
+    2300334: sun_symbols_2
+    2300336: sun_symbols_3
+    2300338: sun_symbols_4
+    2300340: sun_symbols_5
+    2300342: sun_symbols_6
+    2300344: sun_symbols_7
+    2300346: teeth
+    2300348: teleport_1
+    2300350: teleport_2
+    2300352: teleport_3
+    2300354: token
+    2300356: top_beak
+    2300358: torch_1 1
+    2300360: torch_10 1
+    2300362: torch_11 1
+    2300364: torch_12 1
+    2300366: torch_13 1
+    2300368: torch_14 1
+    2300370: torch_15 1
+    2300372: torch_16 1
+    2300374: torch_17 1
+    2300376: torch_18 1
+    2300378: torch_19 1
+    2300380: torch_2 1
+    2300382: torch_20 1
+    2300384: torch_21 1
+    2300386: torch_22 1
+    2300388: torch_23 1
+    2300390: torch_24 1
+    2300392: torch_25 1
+    2300394: torch_3 1
+    2300396: torch_4 1
+    2300398: torch_5 1
+    2300400: torch_6 1
+    2300402: torch_7 1
+    2300404: torch_8 1
+    2300406: torch_9 1
+    2300408: trim_1
+    2300410: trim_2
+    2300412: trim_left
+    2300414: trim_right
+    2300416: vine_1
+    2300418: vine_10
+    2300420: vine_11
+    2300422: vine_12
+    2300424: vine_13
+    2300426: vine_14
+    2300428: vine_15
+    2300430: vine_16
+    2300432: vine_17
+    2300434: vine_18
+    2300436: vine_19
+    2300438: vine_2
+    2300440: vine_20
+    2300442: vine_21
+    2300444: vine_22
+    2300446: vine_3
+    2300448: vine_4
+    2300450: vine_5
+    2300452: vine_6
+    2300454: vine_7
+    2300456: vine_8
+    2300458: vine_9
+    2300460: wall_1
+    2300462: wall_2
+    2300464: wall_back_1
+    2300466: wall_back_2
+    2300468: wall_front_1
+    2300470: wall_front_2
+    2300472: wall_left_1
+    2300474: wall_left_2
+    2300476: wall_right_1
+    2300478: wall_right_2
+    2300480: tee_left
+    2300482: tee_right
+    3300000: base_bot_1
+    3300002: base_bot_2
+    3300004: base_bot_3
+    3300006: base_bot_4
+    3300008: base_bot_5
+    3300010: base_bot_6
+    3300012: base_bot_7
+    3300014: base_bot_8
+    3300016: base_top_1
+    3300018: base_top_2
+    3300020: base_top_3
+    3300022: base_top_4
+    3300024: base_top_5
+    3300026: base_top_6
+    3300028: base_top_7
+    3300030: base_top_8
+    3300032: body
+    3300034: body 1
+    3300036: body_1
+    3300038: body_2
+    3300040: bottom_beak
+    3300042: button
+    3300044: casings_1
+    3300046: casings_2
+    3300048: chains_1
+    3300050: chains_2
+    3300052: collars_bot_1
+    3300054: collars_bot_2
+    3300056: collars_bot_3
+    3300058: collars_bot_4
+    3300060: collars_bot_5
+    3300062: collars_bot_6
+    3300064: collars_bot_7
+    3300066: collars_bot_8
+    3300068: collars_top_1
+    3300070: collars_top_2
+    3300072: collars_top_3
+    3300074: collars_top_4
+    3300076: collars_top_5
+    3300078: collars_top_6
+    3300080: collars_top_7
+    3300082: collars_top_8
+    3300084: column_1 1
+    3300086: column_2 1
+    3300088: column_3 1
+    3300090: column_4 1
+    3300092: column_5 1
+    3300094: column_6 1
+    3300096: column_7 1
+    3300098: column_8 1
+    3300100: earth_challice_1
+    3300102: earth_challice_2
+    3300104: earth_challice_3
+    3300106: earth_challice_4
+    3300108: earth_challice_5
+    3300110: earth_challice_6
+    3300112: earth_challice_7
+    3300114: earth_symbols_1
+    3300116: earth_symbols_2
+    3300118: earth_symbols_3
+    3300120: earth_symbols_4
+    3300122: earth_symbols_5
+    3300124: earth_symbols_6
+    3300126: earth_symbols_7
+    3300128: eye_patch
+    3300130: flat_1
+    3300132: flat_2
+    3300134: floor_0
+    3300136: floor_1 1
+    3300138: floor_2 1
+    3300140: floor_3 1
+    3300142: frame_left
+    3300144: frame_right
+    3300146: hair_central
+    3300148: hair_left
+    3300150: hair_right
+    3300152: handle_left
+    3300154: handle_right
+    3300156: head
+    3300158: head 1
+    3300160: hinge_1
+    3300162: hinge_2
+    3300164: hole
+    3300166: hooks_1
+    3300168: hooks_2
+    3300170: left_arm
+    3300172: left_eye
+    3300174: left_eye 1
+    3300176: left_eyebrow
+    3300178: left_leg
+    3300180: left_leg 1
+    3300182: left_outline
+    3300184: left_pupil
+    3300186: left_pupil 1
+    3300188: left_wing
+    3300190: moon_challice_1
+    3300192: moon_challice_2
+    3300194: moon_challice_3
+    3300196: moon_challice_4
+    3300198: moon_challice_5
+    3300200: moon_challice_6
+    3300202: moon_challice_7
+    3300204: moon_symbols_1
+    3300206: moon_symbols_2
+    3300208: moon_symbols_3
+    3300210: moon_symbols_4
+    3300212: moon_symbols_5
+    3300214: moon_symbols_6
+    3300216: moon_symbols_7
+    3300218: mouth
+    3300220: nose
+    3300222: right_arm
+    3300224: right_eye
+    3300226: right_eye 1
+    3300228: right_eyebrow
+    3300230: right_leg
+    3300232: right_leg 1
+    3300234: right_outline
+    3300236: right_pupil
+    3300238: right_pupil 1
+    3300240: right_wing
+    3300242: rim
+    3300244: rings_1
+    3300246: rings_2
+    3300248: rivets_1
+    3300250: rivets_2
+    3300252: slab
+    3300254: slab 1
+    3300256: slab_2
+    3300258: slab_left_1
+    3300260: slab_right_1
+    3300262: spheres_left
+    3300264: spheres_right
+    3300266: spots
+    3300268: star_symbols_1
+    3300270: star_symbols_10
+    3300272: star_symbols_11
+    3300274: star_symbols_12
+    3300276: star_symbols_13
+    3300278: star_symbols_14
+    3300280: star_symbols_15
+    3300282: star_symbols_16
+    3300284: star_symbols_17
+    3300286: star_symbols_18
+    3300288: star_symbols_19
+    3300290: star_symbols_2
+    3300292: star_symbols_20
+    3300294: star_symbols_21
+    3300296: star_symbols_22
+    3300298: star_symbols_23
+    3300300: star_symbols_24
+    3300302: star_symbols_25
+    3300304: star_symbols_3
+    3300306: star_symbols_4
+    3300308: star_symbols_5
+    3300310: star_symbols_6
+    3300312: star_symbols_7
+    3300314: star_symbols_8
+    3300316: star_symbols_9
+    3300318: sun_challice_1
+    3300320: sun_challice_2
+    3300322: sun_challice_3
+    3300324: sun_challice_4
+    3300326: sun_challice_5
+    3300328: sun_challice_6
+    3300330: sun_challice_7
+    3300332: sun_symbols_1
+    3300334: sun_symbols_2
+    3300336: sun_symbols_3
+    3300338: sun_symbols_4
+    3300340: sun_symbols_5
+    3300342: sun_symbols_6
+    3300344: sun_symbols_7
+    3300346: teeth
+    3300348: teleport_1
+    3300350: teleport_2
+    3300352: teleport_3
+    3300354: token
+    3300356: top_beak
+    3300358: torch_1 1
+    3300360: torch_10 1
+    3300362: torch_11 1
+    3300364: torch_12 1
+    3300366: torch_13 1
+    3300368: torch_14 1
+    3300370: torch_15 1
+    3300372: torch_16 1
+    3300374: torch_17 1
+    3300376: torch_18 1
+    3300378: torch_19 1
+    3300380: torch_2 1
+    3300382: torch_20 1
+    3300384: torch_21 1
+    3300386: torch_22 1
+    3300388: torch_23 1
+    3300390: torch_24 1
+    3300392: torch_25 1
+    3300394: torch_3 1
+    3300396: torch_4 1
+    3300398: torch_5 1
+    3300400: torch_6 1
+    3300402: torch_7 1
+    3300404: torch_8 1
+    3300406: torch_9 1
+    3300408: trim_1
+    3300410: trim_2
+    3300412: trim_left
+    3300414: trim_right
+    3300416: vine_1
+    3300418: vine_10
+    3300420: vine_11
+    3300422: vine_12
+    3300424: vine_13
+    3300426: vine_14
+    3300428: vine_15
+    3300430: vine_16
+    3300432: vine_17
+    3300434: vine_18
+    3300436: vine_19
+    3300438: vine_2
+    3300440: vine_20
+    3300442: vine_21
+    3300444: vine_22
+    3300446: vine_3
+    3300448: vine_4
+    3300450: vine_5
+    3300452: vine_6
+    3300454: vine_7
+    3300456: vine_8
+    3300458: vine_9
+    3300460: wall_1
+    3300462: wall_2
+    3300464: wall_back_1
+    3300466: wall_back_2
+    3300468: wall_front_1
+    3300470: wall_front_2
+    3300472: wall_left_1
+    3300474: wall_left_2
+    3300476: wall_right_1
+    3300478: wall_right_2
+    3300480: tee_left
+    3300482: tee_right
+    4300000: wall_1
+    4300002: wall_2
+    4300004: wall_front_1
+    4300006: wall_back_1
+    4300008: wall_left_1
+    4300010: wall_right_1
+    4300012: slab_left_1
+    4300014: slab_right_1
+    4300016: wall_front_2
+    4300018: wall_back_2
+    4300020: wall_left_2
+    4300022: wall_right_2
+    4300024: slab_2
+    4300026: floor_0
+    4300028: floor_1
+    4300030: flat_1
+    4300032: teleport_1
+    4300034: floor_2
+    4300036: flat_2
+    4300038: teleport_2
+    4300040: floor_3
+    4300042: teleport_3
+    4300044: body_1
+    4300046: trim_1
+    4300048: rivets_1
+    4300050: hinge_1
+    4300052: hooks_1
+    4300054: chains_1
+    4300056: casings_1
+    4300058: rings_1
+    4300060: body_2
+    4300062: trim_2
+    4300064: rivets_2
+    4300066: hinge_2
+    4300068: hooks_2
+    4300070: chains_2
+    4300072: casings_2
+    4300074: rings_2
+    4300076: trim_left
+    4300078: frame_left
+    4300080: handle_left
+    4300082: spheres_left
+    4300084: trim_right
+    4300086: frame_right
+    4300088: handle_right
+    4300090: spheres_right
+    4300092: torch_1
+    4300094: star_symbols_1
+    4300096: torch_2
+    4300098: star_symbols_2
+    4300100: torch_3
+    4300102: star_symbols_3
+    4300104: torch_4
+    4300106: star_symbols_4
+    4300108: torch_5
+    4300110: star_symbols_5
+    4300112: torch_6
+    4300114: star_symbols_6
+    4300116: torch_7
+    4300118: star_symbols_7
+    4300120: torch_8
+    4300122: star_symbols_8
+    4300124: torch_9
+    4300126: star_symbols_9
+    4300128: torch_10
+    4300130: star_symbols_10
+    4300132: torch_11
+    4300134: star_symbols_11
+    4300136: torch_12
+    4300138: star_symbols_12
+    4300140: torch_13
+    4300142: star_symbols_13
+    4300144: torch_14
+    4300146: star_symbols_14
+    4300148: torch_15
+    4300150: star_symbols_15
+    4300152: torch_16
+    4300154: star_symbols_16
+    4300156: torch_17
+    4300158: star_symbols_17
+    4300160: torch_18
+    4300162: star_symbols_18
+    4300164: torch_19
+    4300166: star_symbols_19
+    4300168: torch_20
+    4300170: star_symbols_20
+    4300172: torch_21
+    4300174: star_symbols_21
+    4300176: torch_22
+    4300178: star_symbols_22
+    4300180: torch_23
+    4300182: star_symbols_23
+    4300184: torch_24
+    4300186: star_symbols_24
+    4300188: torch_25
+    4300190: star_symbols_25
+    4300192: sun_challice_1
+    4300194: earth_challice_1
+    4300196: moon_challice_1
+    4300198: sun_symbols_1
+    4300200: earth_symbols_1
+    4300202: moon_symbols_1
+    4300204: sun_challice_2
+    4300206: earth_challice_2
+    4300208: moon_challice_2
+    4300210: sun_symbols_2
+    4300212: earth_symbols_2
+    4300214: moon_symbols_2
+    4300216: sun_challice_3
+    4300218: earth_challice_3
+    4300220: moon_challice_3
+    4300222: sun_symbols_3
+    4300224: earth_symbols_3
+    4300226: moon_symbols_3
+    4300228: sun_challice_4
+    4300230: earth_challice_4
+    4300232: moon_challice_4
+    4300234: sun_symbols_4
+    4300236: earth_symbols_4
+    4300238: moon_symbols_4
+    4300240: sun_challice_5
+    4300242: earth_challice_5
+    4300244: moon_challice_5
+    4300246: sun_symbols_5
+    4300248: earth_symbols_5
+    4300250: moon_symbols_5
+    4300252: sun_challice_6
+    4300254: earth_challice_6
+    4300256: moon_challice_6
+    4300258: sun_symbols_6
+    4300260: earth_symbols_6
+    4300262: moon_symbols_6
+    4300264: sun_challice_7
+    4300266: earth_challice_7
+    4300268: moon_challice_7
+    4300270: sun_symbols_7
+    4300272: earth_symbols_7
+    4300274: moon_symbols_7
+    4300276: column_1
+    4300278: base_bot_1
+    4300280: base_top_1
+    4300282: collars_bot_1
+    4300284: collars_top_1
+    4300286: column_2
+    4300288: base_bot_2
+    4300290: base_top_2
+    4300292: collars_bot_2
+    4300294: collars_top_2
+    4300296: column_3
+    4300298: base_bot_3
+    4300300: base_top_3
+    4300302: collars_bot_3
+    4300304: collars_top_3
+    4300306: column_4
+    4300308: base_bot_4
+    4300310: base_top_4
+    4300312: collars_bot_4
+    4300314: collars_top_4
+    4300316: column_5
+    4300318: base_bot_5
+    4300320: base_top_5
+    4300322: collars_bot_5
+    4300324: collars_top_5
+    4300326: column_6
+    4300328: base_bot_6
+    4300330: base_top_6
+    4300332: collars_bot_6
+    4300334: collars_top_6
+    4300336: column_7
+    4300338: base_bot_7
+    4300340: base_top_7
+    4300342: collars_bot_7
+    4300344: collars_top_7
+    4300346: column_8
+    4300348: base_bot_8
+    4300350: base_top_8
+    4300352: collars_bot_8
+    4300354: collars_top_8
+    4300356: vine_1
+    4300358: vine_2
+    4300360: vine_3
+    4300362: vine_4
+    4300364: vine_5
+    4300366: vine_6
+    4300368: vine_7
+    4300370: vine_8
+    4300372: vine_9
+    4300374: vine_10
+    4300376: vine_11
+    4300378: vine_12
+    4300380: vine_13
+    4300382: vine_14
+    4300384: vine_15
+    4300386: vine_16
+    4300388: vine_17
+    4300390: vine_18
+    4300392: vine_19
+    4300394: vine_20
+    4300396: vine_21
+    4300398: vine_22
+    4300400: hole
+    4300402: rim
+    4300404: button
+    4300406: head
+    4300408: body
+    4300410: slab
+    4300412: hair_left
+    4300414: hair_right
+    4300416: hair_central
+    4300418: top_beak
+    4300420: bottom_beak
+    4300422: eye_patch
+    4300424: left_eye
+    4300426: right_eye
+    4300428: left_pupil
+    4300430: right_pupil
+    4300432: left_outline
+    4300434: right_outline
+    4300436: left_leg
+    4300438: right_leg
+    4300440: right_wing
+    4300442: left_wing
+    4300444: spots
+    4300446: head
+    4300448: body
+    4300450: slab
+    4300452: nose
+    4300454: teeth
+    4300456: mouth
+    4300458: left_eye
+    4300460: right_eye
+    4300462: right_pupil
+    4300464: left_pupil
+    4300466: right_eyebrow
+    4300468: left_eyebrow
+    4300470: left_leg
+    4300472: right_leg
+    4300474: left_arm
+    4300476: right_arm
+    4300478: token
+    4300480: tee_left
+    4300482: tee_right
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
