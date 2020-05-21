@@ -1,0 +1,1254 @@
+fileFormatVersion: 2
+guid: 4f2749133c286314caa11edad96262e5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arms
+    100002: base_bot_1
+    100004: base_bot_2
+    100006: base_bot_3
+    100008: base_bot_4
+    100010: base_bot_5
+    100012: base_bot_6
+    100014: base_bot_7
+    100016: base_bot_8
+    100018: base_top_1
+    100020: base_top_2
+    100022: base_top_3
+    100024: base_top_4
+    100026: base_top_5
+    100028: base_top_6
+    100030: base_top_7
+    100032: base_top_8
+    100034: body
+    100036: body_1
+    100038: body_2
+    100040: bridge_1
+    100042: bridge_2
+    100044: bridges
+    100046: casings_1
+    100048: casings_2
+    100050: chains_1
+    100052: chains_2
+    100054: challices
+    100056: challices_1
+    100058: challices_2
+    100060: challices_3
+    100062: challices_4
+    100064: challices_5
+    100066: challices_6
+    100068: challices_7
+    100070: collars_bot_1
+    100072: collars_bot_2
+    100074: collars_bot_3
+    100076: collars_bot_4
+    100078: collars_bot_5
+    100080: collars_bot_6
+    100082: collars_bot_7
+    100084: collars_bot_8
+    100086: collars_top_1
+    100088: collars_top_2
+    100090: collars_top_3
+    100092: collars_top_4
+    100094: collars_top_5
+    100096: collars_top_6
+    100098: collars_top_7
+    100100: collars_top_8
+    100102: column_1
+    100104: column_1 1
+    100106: column_2
+    100108: column_2 1
+    100110: column_3
+    100112: column_3 1
+    100114: column_4
+    100116: column_4 1
+    100118: column_5
+    100120: column_5 1
+    100122: column_6
+    100124: column_6 1
+    100126: column_7
+    100128: column_7 1
+    100130: column_8
+    100132: column_8 1
+    100134: columns
+    100136: door
+    100138: door_left
+    100140: door_right
+    100142: dynamics_1
+    100144: dynamics_2
+    100146: earth_challice_1
+    100148: earth_challice_2
+    100150: earth_challice_3
+    100152: earth_challice_4
+    100154: earth_challice_5
+    100156: earth_challice_6
+    100158: earth_challice_7
+    100160: earth_symbols_1
+    100162: earth_symbols_2
+    100164: earth_symbols_3
+    100166: earth_symbols_4
+    100168: earth_symbols_5
+    100170: earth_symbols_6
+    100172: earth_symbols_7
+    100174: flat_1
+    100176: flat_2
+    100178: floor_0
+    100180: floor_1
+    100182: floor_1 1
+    100184: floor_2
+    100186: floor_2 1
+    100188: floor_3
+    100190: floor_3 1
+    100192: floors
+    100194: frame_left
+    100196: frame_right
+    100198: handle_left
+    100200: handle_right
+    100202: hinge_1
+    100204: hinge_2
+    100206: hooks_1
+    100208: hooks_2
+    100210: moon_challice_1
+    100212: moon_challice_2
+    100214: moon_challice_3
+    100216: moon_challice_4
+    100218: moon_challice_5
+    100220: moon_challice_6
+    100222: moon_challice_7
+    100224: moon_symbols_1
+    100226: moon_symbols_2
+    100228: moon_symbols_3
+    100230: moon_symbols_4
+    100232: moon_symbols_5
+    100234: moon_symbols_6
+    100236: moon_symbols_7
+    100238: net
+    100240: plate_left
+    100242: plate_right
+    100244: puzzles
+    100246: rings
+    100248: rings_1
+    100250: rings_2
+    100252: rivets_1
+    100254: rivets_2
+    100256: scale
+    100258: //RootNode
+    100260: short_wall_1
+    100262: short_wall_2
+    100264: slab_2
+    100266: slab_left_1
+    100268: slab_right_1
+    100270: spheres_left
+    100272: spheres_right
+    100274: stand
+    100276: star_symbols_1
+    100278: star_symbols_10
+    100280: star_symbols_11
+    100282: star_symbols_12
+    100284: star_symbols_13
+    100286: star_symbols_14
+    100288: star_symbols_15
+    100290: star_symbols_16
+    100292: star_symbols_17
+    100294: star_symbols_18
+    100296: star_symbols_19
+    100298: star_symbols_2
+    100300: star_symbols_20
+    100302: star_symbols_21
+    100304: star_symbols_22
+    100306: star_symbols_23
+    100308: star_symbols_24
+    100310: star_symbols_25
+    100312: star_symbols_3
+    100314: star_symbols_4
+    100316: star_symbols_5
+    100318: star_symbols_6
+    100320: star_symbols_7
+    100322: star_symbols_8
+    100324: star_symbols_9
+    100326: statics_1
+    100328: statics_2
+    100330: sun_challice_1
+    100332: sun_challice_2
+    100334: sun_challice_3
+    100336: sun_challice_4
+    100338: sun_challice_5
+    100340: sun_challice_6
+    100342: sun_challice_7
+    100344: sun_symbols_1
+    100346: sun_symbols_2
+    100348: sun_symbols_3
+    100350: sun_symbols_4
+    100352: sun_symbols_5
+    100354: sun_symbols_6
+    100356: sun_symbols_7
+    100358: teleport_1
+    100360: teleport_2
+    100362: teleport_3
+    100364: torch_1
+    100366: torch_1 1
+    100368: torch_10
+    100370: torch_10 1
+    100372: torch_11
+    100374: torch_11 1
+    100376: torch_12
+    100378: torch_12 1
+    100380: torch_13
+    100382: torch_13 1
+    100384: torch_14
+    100386: torch_14 1
+    100388: torch_15
+    100390: torch_15 1
+    100392: torch_16
+    100394: torch_16 1
+    100396: torch_17
+    100398: torch_17 1
+    100400: torch_18
+    100402: torch_18 1
+    100404: torch_19
+    100406: torch_19 1
+    100408: torch_2
+    100410: torch_2 1
+    100412: torch_20
+    100414: torch_20 1
+    100416: torch_21
+    100418: torch_21 1
+    100420: torch_22
+    100422: torch_22 1
+    100424: torch_23
+    100426: torch_23 1
+    100428: torch_24
+    100430: torch_24 1
+    100432: torch_25
+    100434: torch_25 1
+    100436: torch_3
+    100438: torch_3 1
+    100440: torch_4
+    100442: torch_4 1
+    100444: torch_5
+    100446: torch_5 1
+    100448: torch_6
+    100450: torch_6 1
+    100452: torch_7
+    100454: torch_7 1
+    100456: torch_8
+    100458: torch_8 1
+    100460: torch_9
+    100462: torch_9 1
+    100464: torches
+    100466: trim_1
+    100468: trim_2
+    100470: trim_left
+    100472: trim_right
+    100474: vine_1
+    100476: vine_10
+    100478: vine_11
+    100480: vine_12
+    100482: vine_13
+    100484: vine_14
+    100486: vine_15
+    100488: vine_16
+    100490: vine_17
+    100492: vine_18
+    100494: vine_19
+    100496: vine_2
+    100498: vine_20
+    100500: vine_21
+    100502: vine_22
+    100504: vine_3
+    100506: vine_4
+    100508: vine_5
+    100510: vine_6
+    100512: vine_7
+    100514: vine_8
+    100516: vine_9
+    100518: vines
+    100520: wall_1
+    100522: wall_2
+    100524: wall_back_1
+    100526: wall_back_2
+    100528: wall_front_1
+    100530: wall_front_2
+    100532: wall_left_1
+    100534: wall_left_2
+    100536: wall_right_1
+    100538: wall_right_2
+    100540: walls
+    400000: arms
+    400002: base_bot_1
+    400004: base_bot_2
+    400006: base_bot_3
+    400008: base_bot_4
+    400010: base_bot_5
+    400012: base_bot_6
+    400014: base_bot_7
+    400016: base_bot_8
+    400018: base_top_1
+    400020: base_top_2
+    400022: base_top_3
+    400024: base_top_4
+    400026: base_top_5
+    400028: base_top_6
+    400030: base_top_7
+    400032: base_top_8
+    400034: body
+    400036: body_1
+    400038: body_2
+    400040: bridge_1
+    400042: bridge_2
+    400044: bridges
+    400046: casings_1
+    400048: casings_2
+    400050: chains_1
+    400052: chains_2
+    400054: challices
+    400056: challices_1
+    400058: challices_2
+    400060: challices_3
+    400062: challices_4
+    400064: challices_5
+    400066: challices_6
+    400068: challices_7
+    400070: collars_bot_1
+    400072: collars_bot_2
+    400074: collars_bot_3
+    400076: collars_bot_4
+    400078: collars_bot_5
+    400080: collars_bot_6
+    400082: collars_bot_7
+    400084: collars_bot_8
+    400086: collars_top_1
+    400088: collars_top_2
+    400090: collars_top_3
+    400092: collars_top_4
+    400094: collars_top_5
+    400096: collars_top_6
+    400098: collars_top_7
+    400100: collars_top_8
+    400102: column_1
+    400104: column_1 1
+    400106: column_2
+    400108: column_2 1
+    400110: column_3
+    400112: column_3 1
+    400114: column_4
+    400116: column_4 1
+    400118: column_5
+    400120: column_5 1
+    400122: column_6
+    400124: column_6 1
+    400126: column_7
+    400128: column_7 1
+    400130: column_8
+    400132: column_8 1
+    400134: columns
+    400136: door
+    400138: door_left
+    400140: door_right
+    400142: dynamics_1
+    400144: dynamics_2
+    400146: earth_challice_1
+    400148: earth_challice_2
+    400150: earth_challice_3
+    400152: earth_challice_4
+    400154: earth_challice_5
+    400156: earth_challice_6
+    400158: earth_challice_7
+    400160: earth_symbols_1
+    400162: earth_symbols_2
+    400164: earth_symbols_3
+    400166: earth_symbols_4
+    400168: earth_symbols_5
+    400170: earth_symbols_6
+    400172: earth_symbols_7
+    400174: flat_1
+    400176: flat_2
+    400178: floor_0
+    400180: floor_1
+    400182: floor_1 1
+    400184: floor_2
+    400186: floor_2 1
+    400188: floor_3
+    400190: floor_3 1
+    400192: floors
+    400194: frame_left
+    400196: frame_right
+    400198: handle_left
+    400200: handle_right
+    400202: hinge_1
+    400204: hinge_2
+    400206: hooks_1
+    400208: hooks_2
+    400210: moon_challice_1
+    400212: moon_challice_2
+    400214: moon_challice_3
+    400216: moon_challice_4
+    400218: moon_challice_5
+    400220: moon_challice_6
+    400222: moon_challice_7
+    400224: moon_symbols_1
+    400226: moon_symbols_2
+    400228: moon_symbols_3
+    400230: moon_symbols_4
+    400232: moon_symbols_5
+    400234: moon_symbols_6
+    400236: moon_symbols_7
+    400238: net
+    400240: plate_left
+    400242: plate_right
+    400244: puzzles
+    400246: rings
+    400248: rings_1
+    400250: rings_2
+    400252: rivets_1
+    400254: rivets_2
+    400256: scale
+    400258: //RootNode
+    400260: short_wall_1
+    400262: short_wall_2
+    400264: slab_2
+    400266: slab_left_1
+    400268: slab_right_1
+    400270: spheres_left
+    400272: spheres_right
+    400274: stand
+    400276: star_symbols_1
+    400278: star_symbols_10
+    400280: star_symbols_11
+    400282: star_symbols_12
+    400284: star_symbols_13
+    400286: star_symbols_14
+    400288: star_symbols_15
+    400290: star_symbols_16
+    400292: star_symbols_17
+    400294: star_symbols_18
+    400296: star_symbols_19
+    400298: star_symbols_2
+    400300: star_symbols_20
+    400302: star_symbols_21
+    400304: star_symbols_22
+    400306: star_symbols_23
+    400308: star_symbols_24
+    400310: star_symbols_25
+    400312: star_symbols_3
+    400314: star_symbols_4
+    400316: star_symbols_5
+    400318: star_symbols_6
+    400320: star_symbols_7
+    400322: star_symbols_8
+    400324: star_symbols_9
+    400326: statics_1
+    400328: statics_2
+    400330: sun_challice_1
+    400332: sun_challice_2
+    400334: sun_challice_3
+    400336: sun_challice_4
+    400338: sun_challice_5
+    400340: sun_challice_6
+    400342: sun_challice_7
+    400344: sun_symbols_1
+    400346: sun_symbols_2
+    400348: sun_symbols_3
+    400350: sun_symbols_4
+    400352: sun_symbols_5
+    400354: sun_symbols_6
+    400356: sun_symbols_7
+    400358: teleport_1
+    400360: teleport_2
+    400362: teleport_3
+    400364: torch_1
+    400366: torch_1 1
+    400368: torch_10
+    400370: torch_10 1
+    400372: torch_11
+    400374: torch_11 1
+    400376: torch_12
+    400378: torch_12 1
+    400380: torch_13
+    400382: torch_13 1
+    400384: torch_14
+    400386: torch_14 1
+    400388: torch_15
+    400390: torch_15 1
+    400392: torch_16
+    400394: torch_16 1
+    400396: torch_17
+    400398: torch_17 1
+    400400: torch_18
+    400402: torch_18 1
+    400404: torch_19
+    400406: torch_19 1
+    400408: torch_2
+    400410: torch_2 1
+    400412: torch_20
+    400414: torch_20 1
+    400416: torch_21
+    400418: torch_21 1
+    400420: torch_22
+    400422: torch_22 1
+    400424: torch_23
+    400426: torch_23 1
+    400428: torch_24
+    400430: torch_24 1
+    400432: torch_25
+    400434: torch_25 1
+    400436: torch_3
+    400438: torch_3 1
+    400440: torch_4
+    400442: torch_4 1
+    400444: torch_5
+    400446: torch_5 1
+    400448: torch_6
+    400450: torch_6 1
+    400452: torch_7
+    400454: torch_7 1
+    400456: torch_8
+    400458: torch_8 1
+    400460: torch_9
+    400462: torch_9 1
+    400464: torches
+    400466: trim_1
+    400468: trim_2
+    400470: trim_left
+    400472: trim_right
+    400474: vine_1
+    400476: vine_10
+    400478: vine_11
+    400480: vine_12
+    400482: vine_13
+    400484: vine_14
+    400486: vine_15
+    400488: vine_16
+    400490: vine_17
+    400492: vine_18
+    400494: vine_19
+    400496: vine_2
+    400498: vine_20
+    400500: vine_21
+    400502: vine_22
+    400504: vine_3
+    400506: vine_4
+    400508: vine_5
+    400510: vine_6
+    400512: vine_7
+    400514: vine_8
+    400516: vine_9
+    400518: vines
+    400520: wall_1
+    400522: wall_2
+    400524: wall_back_1
+    400526: wall_back_2
+    400528: wall_front_1
+    400530: wall_front_2
+    400532: wall_left_1
+    400534: wall_left_2
+    400536: wall_right_1
+    400538: wall_right_2
+    400540: walls
+    2100000: lambert1
+    2300000: arms
+    2300002: base_bot_1
+    2300004: base_bot_2
+    2300006: base_bot_3
+    2300008: base_bot_4
+    2300010: base_bot_5
+    2300012: base_bot_6
+    2300014: base_bot_7
+    2300016: base_bot_8
+    2300018: base_top_1
+    2300020: base_top_2
+    2300022: base_top_3
+    2300024: base_top_4
+    2300026: base_top_5
+    2300028: base_top_6
+    2300030: base_top_7
+    2300032: base_top_8
+    2300034: body
+    2300036: body_1
+    2300038: body_2
+    2300040: casings_1
+    2300042: casings_2
+    2300044: chains_1
+    2300046: chains_2
+    2300048: collars_bot_1
+    2300050: collars_bot_2
+    2300052: collars_bot_3
+    2300054: collars_bot_4
+    2300056: collars_bot_5
+    2300058: collars_bot_6
+    2300060: collars_bot_7
+    2300062: collars_bot_8
+    2300064: collars_top_1
+    2300066: collars_top_2
+    2300068: collars_top_3
+    2300070: collars_top_4
+    2300072: collars_top_5
+    2300074: collars_top_6
+    2300076: collars_top_7
+    2300078: collars_top_8
+    2300080: column_1 1
+    2300082: column_2 1
+    2300084: column_3 1
+    2300086: column_4 1
+    2300088: column_5 1
+    2300090: column_6 1
+    2300092: column_7 1
+    2300094: column_8 1
+    2300096: earth_challice_1
+    2300098: earth_challice_2
+    2300100: earth_challice_3
+    2300102: earth_challice_4
+    2300104: earth_challice_5
+    2300106: earth_challice_6
+    2300108: earth_challice_7
+    2300110: earth_symbols_1
+    2300112: earth_symbols_2
+    2300114: earth_symbols_3
+    2300116: earth_symbols_4
+    2300118: earth_symbols_5
+    2300120: earth_symbols_6
+    2300122: earth_symbols_7
+    2300124: flat_1
+    2300126: flat_2
+    2300128: floor_0
+    2300130: floor_1 1
+    2300132: floor_2 1
+    2300134: floor_3 1
+    2300136: frame_left
+    2300138: frame_right
+    2300140: handle_left
+    2300142: handle_right
+    2300144: hinge_1
+    2300146: hinge_2
+    2300148: hooks_1
+    2300150: hooks_2
+    2300152: moon_challice_1
+    2300154: moon_challice_2
+    2300156: moon_challice_3
+    2300158: moon_challice_4
+    2300160: moon_challice_5
+    2300162: moon_challice_6
+    2300164: moon_challice_7
+    2300166: moon_symbols_1
+    2300168: moon_symbols_2
+    2300170: moon_symbols_3
+    2300172: moon_symbols_4
+    2300174: moon_symbols_5
+    2300176: moon_symbols_6
+    2300178: moon_symbols_7
+    2300180: plate_left
+    2300182: plate_right
+    2300184: rings
+    2300186: rings_1
+    2300188: rings_2
+    2300190: rivets_1
+    2300192: rivets_2
+    2300194: slab_2
+    2300196: slab_left_1
+    2300198: slab_right_1
+    2300200: spheres_left
+    2300202: spheres_right
+    2300204: stand
+    2300206: star_symbols_1
+    2300208: star_symbols_10
+    2300210: star_symbols_11
+    2300212: star_symbols_12
+    2300214: star_symbols_13
+    2300216: star_symbols_14
+    2300218: star_symbols_15
+    2300220: star_symbols_16
+    2300222: star_symbols_17
+    2300224: star_symbols_18
+    2300226: star_symbols_19
+    2300228: star_symbols_2
+    2300230: star_symbols_20
+    2300232: star_symbols_21
+    2300234: star_symbols_22
+    2300236: star_symbols_23
+    2300238: star_symbols_24
+    2300240: star_symbols_25
+    2300242: star_symbols_3
+    2300244: star_symbols_4
+    2300246: star_symbols_5
+    2300248: star_symbols_6
+    2300250: star_symbols_7
+    2300252: star_symbols_8
+    2300254: star_symbols_9
+    2300256: sun_challice_1
+    2300258: sun_challice_2
+    2300260: sun_challice_3
+    2300262: sun_challice_4
+    2300264: sun_challice_5
+    2300266: sun_challice_6
+    2300268: sun_challice_7
+    2300270: sun_symbols_1
+    2300272: sun_symbols_2
+    2300274: sun_symbols_3
+    2300276: sun_symbols_4
+    2300278: sun_symbols_5
+    2300280: sun_symbols_6
+    2300282: sun_symbols_7
+    2300284: teleport_1
+    2300286: teleport_2
+    2300288: teleport_3
+    2300290: torch_1 1
+    2300292: torch_10 1
+    2300294: torch_11 1
+    2300296: torch_12 1
+    2300298: torch_13 1
+    2300300: torch_14 1
+    2300302: torch_15 1
+    2300304: torch_16 1
+    2300306: torch_17 1
+    2300308: torch_18 1
+    2300310: torch_19 1
+    2300312: torch_2 1
+    2300314: torch_20 1
+    2300316: torch_21 1
+    2300318: torch_22 1
+    2300320: torch_23 1
+    2300322: torch_24 1
+    2300324: torch_25 1
+    2300326: torch_3 1
+    2300328: torch_4 1
+    2300330: torch_5 1
+    2300332: torch_6 1
+    2300334: torch_7 1
+    2300336: torch_8 1
+    2300338: torch_9 1
+    2300340: trim_1
+    2300342: trim_2
+    2300344: trim_left
+    2300346: trim_right
+    2300348: vine_1
+    2300350: vine_10
+    2300352: vine_11
+    2300354: vine_12
+    2300356: vine_13
+    2300358: vine_14
+    2300360: vine_15
+    2300362: vine_16
+    2300364: vine_17
+    2300366: vine_18
+    2300368: vine_19
+    2300370: vine_2
+    2300372: vine_20
+    2300374: vine_21
+    2300376: vine_22
+    2300378: vine_3
+    2300380: vine_4
+    2300382: vine_5
+    2300384: vine_6
+    2300386: vine_7
+    2300388: vine_8
+    2300390: vine_9
+    2300392: wall_1
+    2300394: wall_2
+    2300396: wall_back_1
+    2300398: wall_back_2
+    2300400: wall_front_1
+    2300402: wall_front_2
+    2300404: wall_left_1
+    2300406: wall_left_2
+    2300408: wall_right_1
+    2300410: wall_right_2
+    3300000: arms
+    3300002: base_bot_1
+    3300004: base_bot_2
+    3300006: base_bot_3
+    3300008: base_bot_4
+    3300010: base_bot_5
+    3300012: base_bot_6
+    3300014: base_bot_7
+    3300016: base_bot_8
+    3300018: base_top_1
+    3300020: base_top_2
+    3300022: base_top_3
+    3300024: base_top_4
+    3300026: base_top_5
+    3300028: base_top_6
+    3300030: base_top_7
+    3300032: base_top_8
+    3300034: body
+    3300036: body_1
+    3300038: body_2
+    3300040: casings_1
+    3300042: casings_2
+    3300044: chains_1
+    3300046: chains_2
+    3300048: collars_bot_1
+    3300050: collars_bot_2
+    3300052: collars_bot_3
+    3300054: collars_bot_4
+    3300056: collars_bot_5
+    3300058: collars_bot_6
+    3300060: collars_bot_7
+    3300062: collars_bot_8
+    3300064: collars_top_1
+    3300066: collars_top_2
+    3300068: collars_top_3
+    3300070: collars_top_4
+    3300072: collars_top_5
+    3300074: collars_top_6
+    3300076: collars_top_7
+    3300078: collars_top_8
+    3300080: column_1 1
+    3300082: column_2 1
+    3300084: column_3 1
+    3300086: column_4 1
+    3300088: column_5 1
+    3300090: column_6 1
+    3300092: column_7 1
+    3300094: column_8 1
+    3300096: earth_challice_1
+    3300098: earth_challice_2
+    3300100: earth_challice_3
+    3300102: earth_challice_4
+    3300104: earth_challice_5
+    3300106: earth_challice_6
+    3300108: earth_challice_7
+    3300110: earth_symbols_1
+    3300112: earth_symbols_2
+    3300114: earth_symbols_3
+    3300116: earth_symbols_4
+    3300118: earth_symbols_5
+    3300120: earth_symbols_6
+    3300122: earth_symbols_7
+    3300124: flat_1
+    3300126: flat_2
+    3300128: floor_0
+    3300130: floor_1 1
+    3300132: floor_2 1
+    3300134: floor_3 1
+    3300136: frame_left
+    3300138: frame_right
+    3300140: handle_left
+    3300142: handle_right
+    3300144: hinge_1
+    3300146: hinge_2
+    3300148: hooks_1
+    3300150: hooks_2
+    3300152: moon_challice_1
+    3300154: moon_challice_2
+    3300156: moon_challice_3
+    3300158: moon_challice_4
+    3300160: moon_challice_5
+    3300162: moon_challice_6
+    3300164: moon_challice_7
+    3300166: moon_symbols_1
+    3300168: moon_symbols_2
+    3300170: moon_symbols_3
+    3300172: moon_symbols_4
+    3300174: moon_symbols_5
+    3300176: moon_symbols_6
+    3300178: moon_symbols_7
+    3300180: plate_left
+    3300182: plate_right
+    3300184: rings
+    3300186: rings_1
+    3300188: rings_2
+    3300190: rivets_1
+    3300192: rivets_2
+    3300194: slab_2
+    3300196: slab_left_1
+    3300198: slab_right_1
+    3300200: spheres_left
+    3300202: spheres_right
+    3300204: stand
+    3300206: star_symbols_1
+    3300208: star_symbols_10
+    3300210: star_symbols_11
+    3300212: star_symbols_12
+    3300214: star_symbols_13
+    3300216: star_symbols_14
+    3300218: star_symbols_15
+    3300220: star_symbols_16
+    3300222: star_symbols_17
+    3300224: star_symbols_18
+    3300226: star_symbols_19
+    3300228: star_symbols_2
+    3300230: star_symbols_20
+    3300232: star_symbols_21
+    3300234: star_symbols_22
+    3300236: star_symbols_23
+    3300238: star_symbols_24
+    3300240: star_symbols_25
+    3300242: star_symbols_3
+    3300244: star_symbols_4
+    3300246: star_symbols_5
+    3300248: star_symbols_6
+    3300250: star_symbols_7
+    3300252: star_symbols_8
+    3300254: star_symbols_9
+    3300256: sun_challice_1
+    3300258: sun_challice_2
+    3300260: sun_challice_3
+    3300262: sun_challice_4
+    3300264: sun_challice_5
+    3300266: sun_challice_6
+    3300268: sun_challice_7
+    3300270: sun_symbols_1
+    3300272: sun_symbols_2
+    3300274: sun_symbols_3
+    3300276: sun_symbols_4
+    3300278: sun_symbols_5
+    3300280: sun_symbols_6
+    3300282: sun_symbols_7
+    3300284: teleport_1
+    3300286: teleport_2
+    3300288: teleport_3
+    3300290: torch_1 1
+    3300292: torch_10 1
+    3300294: torch_11 1
+    3300296: torch_12 1
+    3300298: torch_13 1
+    3300300: torch_14 1
+    3300302: torch_15 1
+    3300304: torch_16 1
+    3300306: torch_17 1
+    3300308: torch_18 1
+    3300310: torch_19 1
+    3300312: torch_2 1
+    3300314: torch_20 1
+    3300316: torch_21 1
+    3300318: torch_22 1
+    3300320: torch_23 1
+    3300322: torch_24 1
+    3300324: torch_25 1
+    3300326: torch_3 1
+    3300328: torch_4 1
+    3300330: torch_5 1
+    3300332: torch_6 1
+    3300334: torch_7 1
+    3300336: torch_8 1
+    3300338: torch_9 1
+    3300340: trim_1
+    3300342: trim_2
+    3300344: trim_left
+    3300346: trim_right
+    3300348: vine_1
+    3300350: vine_10
+    3300352: vine_11
+    3300354: vine_12
+    3300356: vine_13
+    3300358: vine_14
+    3300360: vine_15
+    3300362: vine_16
+    3300364: vine_17
+    3300366: vine_18
+    3300368: vine_19
+    3300370: vine_2
+    3300372: vine_20
+    3300374: vine_21
+    3300376: vine_22
+    3300378: vine_3
+    3300380: vine_4
+    3300382: vine_5
+    3300384: vine_6
+    3300386: vine_7
+    3300388: vine_8
+    3300390: vine_9
+    3300392: wall_1
+    3300394: wall_2
+    3300396: wall_back_1
+    3300398: wall_back_2
+    3300400: wall_front_1
+    3300402: wall_front_2
+    3300404: wall_left_1
+    3300406: wall_left_2
+    3300408: wall_right_1
+    3300410: wall_right_2
+    4300000: wall_1
+    4300002: wall_2
+    4300004: wall_front_1
+    4300006: wall_back_1
+    4300008: wall_left_1
+    4300010: wall_right_1
+    4300012: slab_left_1
+    4300014: slab_right_1
+    4300016: wall_front_2
+    4300018: wall_back_2
+    4300020: wall_left_2
+    4300022: wall_right_2
+    4300024: slab_2
+    4300026: floor_0
+    4300028: floor_1
+    4300030: flat_1
+    4300032: teleport_1
+    4300034: floor_2
+    4300036: flat_2
+    4300038: teleport_2
+    4300040: floor_3
+    4300042: teleport_3
+    4300044: body_1
+    4300046: trim_1
+    4300048: rivets_1
+    4300050: hinge_1
+    4300052: hooks_1
+    4300054: chains_1
+    4300056: casings_1
+    4300058: rings_1
+    4300060: body_2
+    4300062: trim_2
+    4300064: rivets_2
+    4300066: hinge_2
+    4300068: hooks_2
+    4300070: chains_2
+    4300072: casings_2
+    4300074: rings_2
+    4300076: trim_left
+    4300078: frame_left
+    4300080: handle_left
+    4300082: spheres_left
+    4300084: trim_right
+    4300086: frame_right
+    4300088: handle_right
+    4300090: spheres_right
+    4300092: torch_1
+    4300094: star_symbols_1
+    4300096: torch_2
+    4300098: star_symbols_2
+    4300100: torch_3
+    4300102: star_symbols_3
+    4300104: torch_4
+    4300106: star_symbols_4
+    4300108: torch_5
+    4300110: star_symbols_5
+    4300112: torch_6
+    4300114: star_symbols_6
+    4300116: torch_7
+    4300118: star_symbols_7
+    4300120: torch_8
+    4300122: star_symbols_8
+    4300124: torch_9
+    4300126: star_symbols_9
+    4300128: torch_10
+    4300130: star_symbols_10
+    4300132: torch_11
+    4300134: star_symbols_11
+    4300136: torch_12
+    4300138: star_symbols_12
+    4300140: torch_13
+    4300142: star_symbols_13
+    4300144: torch_14
+    4300146: star_symbols_14
+    4300148: torch_15
+    4300150: star_symbols_15
+    4300152: torch_16
+    4300154: star_symbols_16
+    4300156: torch_17
+    4300158: star_symbols_17
+    4300160: torch_18
+    4300162: star_symbols_18
+    4300164: torch_19
+    4300166: star_symbols_19
+    4300168: torch_20
+    4300170: star_symbols_20
+    4300172: torch_21
+    4300174: star_symbols_21
+    4300176: torch_22
+    4300178: star_symbols_22
+    4300180: torch_23
+    4300182: star_symbols_23
+    4300184: torch_24
+    4300186: star_symbols_24
+    4300188: torch_25
+    4300190: star_symbols_25
+    4300192: sun_challice_1
+    4300194: earth_challice_1
+    4300196: moon_challice_1
+    4300198: sun_symbols_1
+    4300200: earth_symbols_1
+    4300202: moon_symbols_1
+    4300204: sun_challice_2
+    4300206: earth_challice_2
+    4300208: moon_challice_2
+    4300210: sun_symbols_2
+    4300212: earth_symbols_2
+    4300214: moon_symbols_2
+    4300216: sun_challice_3
+    4300218: earth_challice_3
+    4300220: moon_challice_3
+    4300222: sun_symbols_3
+    4300224: earth_symbols_3
+    4300226: moon_symbols_3
+    4300228: sun_challice_4
+    4300230: earth_challice_4
+    4300232: moon_challice_4
+    4300234: sun_symbols_4
+    4300236: earth_symbols_4
+    4300238: moon_symbols_4
+    4300240: sun_challice_5
+    4300242: earth_challice_5
+    4300244: moon_challice_5
+    4300246: sun_symbols_5
+    4300248: earth_symbols_5
+    4300250: moon_symbols_5
+    4300252: sun_challice_6
+    4300254: earth_challice_6
+    4300256: moon_challice_6
+    4300258: sun_symbols_6
+    4300260: earth_symbols_6
+    4300262: moon_symbols_6
+    4300264: sun_challice_7
+    4300266: earth_challice_7
+    4300268: moon_challice_7
+    4300270: sun_symbols_7
+    4300272: earth_symbols_7
+    4300274: moon_symbols_7
+    4300276: column_1
+    4300278: base_bot_1
+    4300280: base_top_1
+    4300282: collars_bot_1
+    4300284: collars_top_1
+    4300286: column_2
+    4300288: base_bot_2
+    4300290: base_top_2
+    4300292: collars_bot_2
+    4300294: collars_top_2
+    4300296: column_3
+    4300298: base_bot_3
+    4300300: base_top_3
+    4300302: collars_bot_3
+    4300304: collars_top_3
+    4300306: column_4
+    4300308: base_bot_4
+    4300310: base_top_4
+    4300312: collars_bot_4
+    4300314: collars_top_4
+    4300316: column_5
+    4300318: base_bot_5
+    4300320: base_top_5
+    4300322: collars_bot_5
+    4300324: collars_top_5
+    4300326: column_6
+    4300328: base_bot_6
+    4300330: base_top_6
+    4300332: collars_bot_6
+    4300334: collars_top_6
+    4300336: column_7
+    4300338: base_bot_7
+    4300340: base_top_7
+    4300342: collars_bot_7
+    4300344: collars_top_7
+    4300346: column_8
+    4300348: base_bot_8
+    4300350: base_top_8
+    4300352: collars_bot_8
+    4300354: collars_top_8
+    4300356: vine_1
+    4300358: vine_2
+    4300360: vine_3
+    4300362: vine_4
+    4300364: vine_5
+    4300366: vine_6
+    4300368: vine_7
+    4300370: vine_8
+    4300372: vine_9
+    4300374: vine_10
+    4300376: vine_11
+    4300378: vine_12
+    4300380: vine_13
+    4300382: vine_14
+    4300384: vine_15
+    4300386: vine_16
+    4300388: vine_17
+    4300390: vine_18
+    4300392: vine_19
+    4300394: vine_20
+    4300396: vine_21
+    4300398: vine_22
+    4300400: body
+    4300402: rings
+    4300404: stand
+    4300406: arms
+    4300408: plate_left
+    4300410: plate_right
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

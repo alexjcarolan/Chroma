@@ -29,7 +29,7 @@ public class ParentSwapper : MonoBehaviour
                         if (SceneManager.GetActiveScene().name == "secondRoom")
                         {
                             t.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
-
+                            print("reached second room");
                             if (t.gameObject.GetComponent<FreezeCheck>() == null)
                             {
                                 t.gameObject.AddComponent<FreezeCheck>();

@@ -84,6 +84,7 @@ public class DrawLineManager : MonoBehaviour
             print("TOUCH UP");
             if (SceneManager.GetActiveScene().name == "secondRoom")
             {
+                print("adding mass dlm now");
                 go.AddComponent<Mass_DLM>();
                 go.GetComponent<Mass_DLM>().setMass();
             }

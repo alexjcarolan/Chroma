@@ -195,6 +195,7 @@
      <Compile Include="Assets\Scripts\BallInWell.cs" />
      <Compile Include="Assets\Scripts\BrightenLight.cs" />
      <Compile Include="Assets\Scripts\CircleDetector.cs" />
+     <Compile Include="Assets\Scripts\CompleteNetPuzzle.cs" />
      <Compile Include="Assets\Scripts\CubeSpawner.cs" />
      <Compile Include="Assets\Scripts\DeathCheckpoints.cs" />
      <Compile Include="Assets\Scripts\DestroyPool.cs" />
