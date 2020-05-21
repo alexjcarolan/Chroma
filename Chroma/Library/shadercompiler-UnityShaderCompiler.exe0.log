@@ -1,0 +1,74 @@
+Base path: C:/Program Files/Unity/Hub/Editor/2018.4.12f1/Editor/Data
+Cmd: initializeCompiler
+Cmd: preprocess
+  insize=963 outsize=362 ok=1
+Cmd: preprocess
+  insize=7416 outsize=2317 ok=1
+Cmd: preprocess
+  insize=3608 outsize=1262 ok=1
+Cmd: preprocess
+  insize=3652 outsize=1674 ok=1
+Cmd: preprocess
+  insize=1844 outsize=784 ok=1
+Cmd: preprocess
+  insize=3606 outsize=1310 ok=1
+Cmd: preprocess
+  insize=2607 outsize=887 ok=1
+Cmd: preprocess
+  insize=10875 outsize=4001 ok=1
+Cmd: preprocess
+  insize=4274 outsize=1551 ok=1
+Cmd: preprocess
+  insize=3615 outsize=2669 ok=1
+Cmd: preprocess
+  insize=665 outsize=665 ok=1
+Cmd: preprocess
+  insize=553 outsize=309 ok=1
+Cmd: preprocess
+  insize=7844 outsize=2494 ok=1
+Cmd: preprocess
+  insize=8019 outsize=2766 ok=1
+Cmd: preprocess
+  insize=898 outsize=444 ok=1
+Cmd: preprocess
+  insize=3207 outsize=1205 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2445 outsize=1350 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2445 outsize=998 kw= pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: preprocess
+  insize=2420 outsize=1129 ok=1
+Cmd: preprocess
+  insize=1014 outsize=359 ok=1
+Cmd: preprocess
+  insize=10864 outsize=3992 ok=1
+Cmd: preprocess
+  insize=4267 outsize=1244 ok=1
+Cmd: preprocess
+  insize=4453 outsize=3687 ok=1
+Cmd: preprocess
+  insize=7870 outsize=2504 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
