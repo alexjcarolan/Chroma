@@ -30,6 +30,7 @@ public class ArrowShooter : MonoBehaviour
     {
         while(true)
         {
+            FindObjectOfType<AudioManager>().Play("arrow_shoot");
             yield return new WaitForSeconds(timeSpan);
             Vector3 launchDirection = GetLaunchDirection();
             Quaternion q = Quaternion.Euler(launchDirection);

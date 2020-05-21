@@ -50,6 +50,7 @@ public class spawnpool : MonoBehaviour
             for (int j = 0; j < noOfRocks; j++)
             {
                 GameObject t = Instantiate(prefab, planepos, Quaternion.identity) as GameObject;
+                FindObjectOfType<AudioManager>().Play("pool_spawned");
                 t.name = "Arrow(Clone)";
                 t.transform.position = planepos + Random.insideUnitSphere * 5f;
                 t.GetComponent<Transform>().rotation = Random.rotation;
@@ -59,6 +60,7 @@ public class spawnpool : MonoBehaviour
                 rb.velocity *= 0.7f;
                 physics();
                 waitedtime = 0;
+                FindObjectOfType<AudioManager>().Play("pool_crash");
             }
             if (distance <= 1.5)
             {

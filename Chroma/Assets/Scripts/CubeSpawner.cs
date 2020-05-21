@@ -30,6 +30,7 @@ public class CubeSpawner : MonoBehaviour
             Quaternion q = Quaternion.Euler(launchDirection);
 
             GameObject spawned = Instantiate(ball, transform.position, q) as GameObject;
+            FindObjectOfType<AudioManager>().Play("ball_shoot");
             ball.name = "Ball";
             spawned.GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 1) * velocity);
             Destroy(spawned, destroytime);
